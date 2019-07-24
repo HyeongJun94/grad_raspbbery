@@ -15,8 +15,6 @@ drwrap.h
 /home/hyeongjun/workspace/dynamorio/api/samples/drwrap.h
 stdio.h
 -
-android/sensor.h
--
 
 api/samples/../../ext/include/drext.h
 

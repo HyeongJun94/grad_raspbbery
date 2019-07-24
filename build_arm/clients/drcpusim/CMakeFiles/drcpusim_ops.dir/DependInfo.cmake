@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hyeongjun/workspace/dynamorio/clients/drcpusim/optionlist.cpp" "/home/hyeongjun/workspace/grad_project/build_arm/clients/drcpusim/CMakeFiles/drcpusim_ops.dir/optionlist.cpp.o"
-  "/home/hyeongjun/workspace/dynamorio/clients/drcpusim/options.cpp" "/home/hyeongjun/workspace/grad_project/build_arm/clients/drcpusim/CMakeFiles/drcpusim_ops.dir/options.cpp.o"
+  "/home/hyeongjun/workspace/dynamorio/clients/drcpusim/optionlist.cpp" "/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim/CMakeFiles/drcpusim_ops.dir/optionlist.cpp.o"
+  "/home/hyeongjun/workspace/dynamorio/clients/drcpusim/options.cpp" "/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim/CMakeFiles/drcpusim_ops.dir/options.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

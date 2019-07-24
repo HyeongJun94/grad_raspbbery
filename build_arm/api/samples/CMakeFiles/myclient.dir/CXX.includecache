@@ -19,10 +19,6 @@ iostream
 -
 string
 -
-myheader.h
-/home/hyeongjun/workspace/dynamorio/api/samples/myheader.h
-
-/home/hyeongjun/workspace/dynamorio/api/samples/myheader.h
 
 api/samples/../../ext/include/drext.h
 

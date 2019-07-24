@@ -1,5 +1,5 @@
 # 1 "/home/hyeongjun/workspace/dynamorio/core/drlibc/drlibc_arm.asm"
-# 1 "/home/hyeongjun/workspace/grad_project/build_arm/core//"
+# 1 "/home/hyeongjun/workspace/raspberrypi/build_arm/core//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "/usr/arm-linux-gnueabihf/include/stdc-predef.h" 1 3
@@ -8,7 +8,7 @@
 # 37 "/home/hyeongjun/workspace/dynamorio/core/drlibc/drlibc_arm.asm"
 # 1 "/home/hyeongjun/workspace/dynamorio/core/arch/arm/../asm_defines.asm" 1
 # 42 "/home/hyeongjun/workspace/dynamorio/core/arch/arm/../asm_defines.asm"
-# 1 "/home/hyeongjun/workspace/grad_project/build_arm/configure.h" 1
+# 1 "/home/hyeongjun/workspace/raspberrypi/build_arm/configure.h" 1
 # 43 "/home/hyeongjun/workspace/dynamorio/core/arch/arm/../asm_defines.asm" 2
 # 38 "/home/hyeongjun/workspace/dynamorio/core/drlibc/drlibc_arm.asm" 2
 .text

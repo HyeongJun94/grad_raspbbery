@@ -1,1 +1,1 @@
-set(drpreloadloc "/home/hyeongjun/workspace/grad_project/build_arm/lib32/release/libdrpreload.so")
+set(drpreloadloc "/home/hyeongjun/workspace/raspberrypi/build_arm/lib32/release/libdrpreload.so")

@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hyeongjun/workspace/grad_project/build_arm
+CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
 
 # Include any dependencies generated for this target.
 include clients/drcachesim/CMakeFiles/drcachesim.dir/depend.make
@@ -51,17 +51,17 @@ include clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/launcher.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/launcher.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/launcher.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/launcher.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/launcher.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/launcher.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/launcher.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/launcher.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/launcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/launcher.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/launcher.cpp > CMakeFiles/drcachesim.dir/launcher.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/launcher.cpp > CMakeFiles/drcachesim.dir/launcher.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/launcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/launcher.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/launcher.cpp -o CMakeFiles/drcachesim.dir/launcher.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/launcher.cpp -o CMakeFiles/drcachesim.dir/launcher.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/launcher.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/launcher.cpp.o.requires
@@ -74,17 +74,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/launcher.cpp.o.provides.build: clie
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/analyzer.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/analyzer.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/analyzer.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer.cpp > CMakeFiles/drcachesim.dir/analyzer.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer.cpp > CMakeFiles/drcachesim.dir/analyzer.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/analyzer.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer.cpp -o CMakeFiles/drcachesim.dir/analyzer.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer.cpp -o CMakeFiles/drcachesim.dir/analyzer.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer.cpp.o.requires
@@ -97,17 +97,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer.cpp.o.provides.build: clie
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer_multi.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer_multi.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer_multi.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer_multi.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/analyzer_multi.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer_multi.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/analyzer_multi.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer_multi.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer_multi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/analyzer_multi.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer_multi.cpp > CMakeFiles/drcachesim.dir/analyzer_multi.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer_multi.cpp > CMakeFiles/drcachesim.dir/analyzer_multi.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer_multi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/analyzer_multi.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer_multi.cpp -o CMakeFiles/drcachesim.dir/analyzer_multi.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/analyzer_multi.cpp -o CMakeFiles/drcachesim.dir/analyzer_multi.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer_multi.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer_multi.cpp.o.requires
@@ -120,17 +120,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/analyzer_multi.cpp.o.provides.build
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/named_pipe_unix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/named_pipe_unix.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/named_pipe_unix.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/named_pipe_unix.cpp > CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/named_pipe_unix.cpp > CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/named_pipe_unix.cpp -o CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/named_pipe_unix.cpp -o CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.o.requires
@@ -143,17 +143,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/common/named_pipe_unix.cpp.o.provid
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/options.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/options.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/options.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/common/options.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/common/options.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/options.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/common/options.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/options.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/common/options.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/options.cpp > CMakeFiles/drcachesim.dir/common/options.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/options.cpp > CMakeFiles/drcachesim.dir/common/options.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/common/options.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/options.cpp -o CMakeFiles/drcachesim.dir/common/options.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/options.cpp -o CMakeFiles/drcachesim.dir/common/options.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/options.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/common/options.cpp.o.requires
@@ -166,17 +166,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/common/options.cpp.o.provides.build
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/trace_entry.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/trace_entry.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/trace_entry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/common/trace_entry.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/common/trace_entry.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/trace_entry.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/common/trace_entry.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/trace_entry.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/trace_entry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/common/trace_entry.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/trace_entry.cpp > CMakeFiles/drcachesim.dir/common/trace_entry.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/trace_entry.cpp > CMakeFiles/drcachesim.dir/common/trace_entry.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/trace_entry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/common/trace_entry.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/trace_entry.cpp -o CMakeFiles/drcachesim.dir/common/trace_entry.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/trace_entry.cpp -o CMakeFiles/drcachesim.dir/common/trace_entry.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/common/trace_entry.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/common/trace_entry.cpp.o.requires
@@ -189,17 +189,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/common/trace_entry.cpp.o.provides.b
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/reader.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/reader.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/reader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/reader/reader.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/reader/reader.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/reader.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/reader/reader.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/reader.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/reader/reader.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/reader.cpp > CMakeFiles/drcachesim.dir/reader/reader.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/reader.cpp > CMakeFiles/drcachesim.dir/reader/reader.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/reader/reader.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/reader.cpp -o CMakeFiles/drcachesim.dir/reader/reader.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/reader.cpp -o CMakeFiles/drcachesim.dir/reader/reader.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/reader.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/reader/reader.cpp.o.requires
@@ -212,17 +212,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/reader/reader.cpp.o.provides.build:
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/config_reader.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/config_reader.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/config_reader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/reader/config_reader.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/reader/config_reader.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/config_reader.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/reader/config_reader.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/config_reader.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/config_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/reader/config_reader.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/config_reader.cpp > CMakeFiles/drcachesim.dir/reader/config_reader.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/config_reader.cpp > CMakeFiles/drcachesim.dir/reader/config_reader.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/config_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/reader/config_reader.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/config_reader.cpp -o CMakeFiles/drcachesim.dir/reader/config_reader.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/config_reader.cpp -o CMakeFiles/drcachesim.dir/reader/config_reader.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/config_reader.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/reader/config_reader.cpp.o.requires
@@ -235,17 +235,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/reader/config_reader.cpp.o.provides
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/file_reader.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/file_reader.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/file_reader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/reader/file_reader.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/reader/file_reader.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/file_reader.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/reader/file_reader.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/file_reader.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/file_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/reader/file_reader.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/file_reader.cpp > CMakeFiles/drcachesim.dir/reader/file_reader.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/file_reader.cpp > CMakeFiles/drcachesim.dir/reader/file_reader.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/file_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/reader/file_reader.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/file_reader.cpp -o CMakeFiles/drcachesim.dir/reader/file_reader.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/file_reader.cpp -o CMakeFiles/drcachesim.dir/reader/file_reader.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/file_reader.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/reader/file_reader.cpp.o.requires
@@ -258,17 +258,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/reader/file_reader.cpp.o.provides.b
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/ipc_reader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/ipc_reader.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/ipc_reader.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/ipc_reader.cpp > CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/ipc_reader.cpp > CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/ipc_reader.cpp -o CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader/ipc_reader.cpp -o CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.o.requires
@@ -281,17 +281,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.o.provides.bu
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/simulator/analyzer_interface.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/simulator/analyzer_interface.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/simulator/analyzer_interface.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/simulator/analyzer_interface.cpp > CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/simulator/analyzer_interface.cpp > CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/simulator/analyzer_interface.cpp -o CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/simulator/analyzer_interface.cpp -o CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o.requires
@@ -304,17 +304,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o.
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/tracer/instru.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/tracer/instru.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/tracer/instru.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru.cpp > CMakeFiles/drcachesim.dir/tracer/instru.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru.cpp > CMakeFiles/drcachesim.dir/tracer/instru.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/tracer/instru.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru.cpp -o CMakeFiles/drcachesim.dir/tracer/instru.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru.cpp -o CMakeFiles/drcachesim.dir/tracer/instru.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o.requires
@@ -327,17 +327,17 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o.provides.build:
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.o: clients/drcachesim/CMakeFiles/drcachesim.dir/flags.make
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru_online.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru_online.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -o CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru_online.cpp
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru_online.cpp > CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru_online.cpp > CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.i
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru_online.cpp -o CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -mthumb -std=c++11 -std=c++11 -std=c++11 -std=c++11 -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer/instru_online.cpp -o CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.s
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.o.requires
@@ -406,7 +406,7 @@ clients/bin32/drcachesim: ext/lib32/release/libdrmgr_static.a
 clients/bin32/drcachesim: lib32/release/libdynamorio.so
 clients/bin32/drcachesim: clients/drcachesim/CMakeFiles/drcachesim.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../bin32/drcachesim"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drcachesim.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drcachesim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 clients/drcachesim/CMakeFiles/drcachesim.dir/build: clients/bin32/drcachesim
@@ -428,10 +428,10 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/requires: clients/drcachesim/CMakeF
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/requires
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/clean:
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim && $(CMAKE_COMMAND) -P CMakeFiles/drcachesim.dir/cmake_clean.cmake
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && $(CMAKE_COMMAND) -P CMakeFiles/drcachesim.dir/cmake_clean.cmake
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/clean
 
 clients/drcachesim/CMakeFiles/drcachesim.dir/depend:
-	cd /home/hyeongjun/workspace/grad_project/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/clients/drcachesim /home/hyeongjun/workspace/grad_project/build_arm /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim /home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim/CMakeFiles/drcachesim.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/clients/drcachesim /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/drcachesim.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/depend
 

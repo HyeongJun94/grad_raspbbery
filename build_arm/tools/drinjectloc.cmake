@@ -1,1 +1,1 @@
-set(drinjectloc "/home/hyeongjun/workspace/grad_project/build_arm/bin32/drinject")
+set(drinjectloc "/home/hyeongjun/workspace/raspberrypi/build_arm/bin32/drinject")

@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/core/config.c" "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drinjectlib.dir/config.c.o"
-  "/home/hyeongjun/workspace/dynamorio/core/io.c" "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drinjectlib.dir/io.c.o"
-  "/home/hyeongjun/workspace/dynamorio/core/string.c" "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drinjectlib.dir/string.c.o"
-  "/home/hyeongjun/workspace/dynamorio/core/unix/injector.c" "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drinjectlib.dir/unix/injector.c.o"
+  "/home/hyeongjun/workspace/dynamorio/core/config.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drinjectlib.dir/config.c.o"
+  "/home/hyeongjun/workspace/dynamorio/core/io.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drinjectlib.dir/io.c.o"
+  "/home/hyeongjun/workspace/dynamorio/core/string.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drinjectlib.dir/string.c.o"
+  "/home/hyeongjun/workspace/dynamorio/core/unix/injector.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drinjectlib.dir/unix/injector.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drdecode.dir/DependInfo.cmake"
-  "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drlibc.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drdecode.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drlibc.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

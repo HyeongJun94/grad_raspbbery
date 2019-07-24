@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hyeongjun/workspace/grad_project/build_arm
+CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
 
 # Include any dependencies generated for this target.
 include clients/drcov/CMakeFiles/drcov.dir/depend.make
@@ -51,17 +51,17 @@ include clients/drcov/CMakeFiles/drcov.dir/flags.make
 
 clients/drcov/CMakeFiles/drcov.dir/drcov.c.o: clients/drcov/CMakeFiles/drcov.dir/flags.make
 clients/drcov/CMakeFiles/drcov.dir/drcov.c.o: /home/hyeongjun/workspace/dynamorio/clients/drcov/drcov.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object clients/drcov/CMakeFiles/drcov.dir/drcov.c.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -o CMakeFiles/drcov.dir/drcov.c.o   -c /home/hyeongjun/workspace/dynamorio/clients/drcov/drcov.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -o CMakeFiles/drcov.dir/drcov.c.o   -c /home/hyeongjun/workspace/dynamorio/clients/drcov/drcov.c
 
 clients/drcov/CMakeFiles/drcov.dir/drcov.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drcov.dir/drcov.c.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -E /home/hyeongjun/workspace/dynamorio/clients/drcov/drcov.c > CMakeFiles/drcov.dir/drcov.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -E /home/hyeongjun/workspace/dynamorio/clients/drcov/drcov.c > CMakeFiles/drcov.dir/drcov.c.i
 
 clients/drcov/CMakeFiles/drcov.dir/drcov.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drcov.dir/drcov.c.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -S /home/hyeongjun/workspace/dynamorio/clients/drcov/drcov.c -o CMakeFiles/drcov.dir/drcov.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -S /home/hyeongjun/workspace/dynamorio/clients/drcov/drcov.c -o CMakeFiles/drcov.dir/drcov.c.s
 
 clients/drcov/CMakeFiles/drcov.dir/drcov.c.o.requires:
 .PHONY : clients/drcov/CMakeFiles/drcov.dir/drcov.c.o.requires
@@ -89,8 +89,8 @@ clients/lib32/release/libdrcov.so: ext/lib32/release/libdrmgr.so
 clients/lib32/release/libdrcov.so: lib32/release/libdynamorio.so
 clients/lib32/release/libdrcov.so: clients/drcov/CMakeFiles/drcov.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../lib32/release/libdrcov.so"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcov && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drcov.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcov && /usr/bin/cmake -E echo "Usage: pass to drconfig or drrun: -t drcov"
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drcov.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/cmake -E echo "Usage: pass to drconfig or drrun: -t drcov"
 
 # Rule to build all files generated by this target.
 clients/drcov/CMakeFiles/drcov.dir/build: clients/lib32/release/libdrcov.so
@@ -100,10 +100,10 @@ clients/drcov/CMakeFiles/drcov.dir/requires: clients/drcov/CMakeFiles/drcov.dir/
 .PHONY : clients/drcov/CMakeFiles/drcov.dir/requires
 
 clients/drcov/CMakeFiles/drcov.dir/clean:
-	cd /home/hyeongjun/workspace/grad_project/build_arm/clients/drcov && $(CMAKE_COMMAND) -P CMakeFiles/drcov.dir/cmake_clean.cmake
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && $(CMAKE_COMMAND) -P CMakeFiles/drcov.dir/cmake_clean.cmake
 .PHONY : clients/drcov/CMakeFiles/drcov.dir/clean
 
 clients/drcov/CMakeFiles/drcov.dir/depend:
-	cd /home/hyeongjun/workspace/grad_project/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/clients/drcov /home/hyeongjun/workspace/grad_project/build_arm /home/hyeongjun/workspace/grad_project/build_arm/clients/drcov /home/hyeongjun/workspace/grad_project/build_arm/clients/drcov/CMakeFiles/drcov.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/clients/drcov /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov/CMakeFiles/drcov.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : clients/drcov/CMakeFiles/drcov.dir/depend
 

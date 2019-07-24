@@ -26,7 +26,6 @@ tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o
  /home/hyeongjun/workspace/dynamorio/core/utils.h
  /home/hyeongjun/workspace/dynamorio/core/vmareas.h
  configure.h
- event_strings.h
 tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o
  /home/hyeongjun/workspace/dynamorio/core/lib/c_defines.h
  /home/hyeongjun/workspace/dynamorio/core/lib/globals_shared.h

@@ -1,1 +1,1 @@
-set(drconfigloc "/home/hyeongjun/workspace/grad_project/build_arm/bin32/drconfig")
+set(drconfigloc "/home/hyeongjun/workspace/raspberrypi/build_arm/bin32/drconfig")

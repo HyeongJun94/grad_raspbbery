@@ -192,5 +192,3 @@ configure.h
 sys/types.h
 -
 
-event_strings.h
-

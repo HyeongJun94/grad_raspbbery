@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/core/unix/nudgesig.c" "/home/hyeongjun/workspace/grad_project/build_arm/tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o"
-  "/home/hyeongjun/workspace/dynamorio/tools/nudgeunix.c" "/home/hyeongjun/workspace/grad_project/build_arm/tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o"
+  "/home/hyeongjun/workspace/dynamorio/core/unix/nudgesig.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o"
+  "/home/hyeongjun/workspace/dynamorio/tools/nudgeunix.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

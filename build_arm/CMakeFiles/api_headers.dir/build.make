@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hyeongjun/workspace/grad_project/build_arm
+CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
 
 # Utility rule file for api_headers.
 
@@ -186,9 +186,9 @@ include/dr_app.h: /home/hyeongjun/workspace/dynamorio/ext/drsyms/drsyms_obj.h
 include/dr_app.h: /home/hyeongjun/workspace/dynamorio/ext/drsyms/drsyms.h
 include/dr_app.h: /home/hyeongjun/workspace/dynamorio/ext/drsyms/drsyms_private.h
 include/dr_app.h: /home/hyeongjun/workspace/dynamorio/ext/drsyms/demangle.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating include/dr_app.h, include/dr_api.h"
-	cd /home/hyeongjun/workspace/dynamorio/core && /usr/bin/perl /home/hyeongjun/workspace/dynamorio/core/lib/genapi.pl -core /home/hyeongjun/workspace/dynamorio/core -header /home/hyeongjun/workspace/grad_project/build_arm/include "-DDRSTATS_DEMO -DARM -DAARCHXX -DLINUX -DUNIX -DCLIENT_INTERFACE -DAPP_EXPORTS -DKSTATS -DHAVE_FVISIBILITY -DHAVE_TYPELIMITS_CONTROL -DDR_DO_NOT_DEFINE_uint -DDR_DO_NOT_DEFINE_ushort -DDR__Bool_EXISTS -DASSEMBLE_WITH_GAS -DHAVE_MEMINFO -DHAVE_MEMINFO_MAPS -DHAVE_TLS -DHAVE_SIGALTSTACK -DUSE_VISIBILITY_ATTRIBUTES -DDYNAMORIO_IR_EXPORTS -DCUSTOM_TRACES -DCLIENT_SIDELINE -DDR_APP_EXPORTS -DAPI_EXPORT_ONLY"
+	cd /home/hyeongjun/workspace/dynamorio/core && /usr/bin/perl /home/hyeongjun/workspace/dynamorio/core/lib/genapi.pl -core /home/hyeongjun/workspace/dynamorio/core -header /home/hyeongjun/workspace/raspberrypi/build_arm/include "-DDRSTATS_DEMO -DARM -DAARCHXX -DLINUX -DUNIX -DCLIENT_INTERFACE -DAPP_EXPORTS -DKSTATS -DHAVE_FVISIBILITY -DHAVE_TYPELIMITS_CONTROL -DDR_DO_NOT_DEFINE_uint -DDR_DO_NOT_DEFINE_ushort -DDR__Bool_EXISTS -DASSEMBLE_WITH_GAS -DHAVE_MEMINFO -DHAVE_MEMINFO_MAPS -DHAVE_TLS -DHAVE_SIGALTSTACK -DUSE_VISIBILITY_ATTRIBUTES -DDYNAMORIO_IR_EXPORTS -DCUSTOM_TRACES -DCLIENT_SIDELINE -DDR_APP_EXPORTS -DAPI_EXPORT_ONLY"
 
 include/dr_api.h: include/dr_app.h
 	@$(CMAKE_COMMAND) -E touch_nocreate include/dr_api.h
@@ -208,6 +208,6 @@ CMakeFiles/api_headers.dir/clean:
 .PHONY : CMakeFiles/api_headers.dir/clean
 
 CMakeFiles/api_headers.dir/depend:
-	cd /home/hyeongjun/workspace/grad_project/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/grad_project/build_arm /home/hyeongjun/workspace/grad_project/build_arm /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles/api_headers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles/api_headers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/api_headers.dir/depend
 

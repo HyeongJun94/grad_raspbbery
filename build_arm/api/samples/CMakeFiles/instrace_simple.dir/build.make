@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hyeongjun/workspace/grad_project/build_arm
+CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
 
 # Include any dependencies generated for this target.
 include api/samples/CMakeFiles/instrace_simple.dir/depend.make
@@ -51,17 +51,17 @@ include api/samples/CMakeFiles/instrace_simple.dir/flags.make
 
 api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.o: api/samples/CMakeFiles/instrace_simple.dir/flags.make
 api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.o: /home/hyeongjun/workspace/dynamorio/api/samples/instrace_simple.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -o CMakeFiles/instrace_simple.dir/instrace_simple.c.o   -c /home/hyeongjun/workspace/dynamorio/api/samples/instrace_simple.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -o CMakeFiles/instrace_simple.dir/instrace_simple.c.o   -c /home/hyeongjun/workspace/dynamorio/api/samples/instrace_simple.c
 
 api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/instrace_simple.dir/instrace_simple.c.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -E /home/hyeongjun/workspace/dynamorio/api/samples/instrace_simple.c > CMakeFiles/instrace_simple.dir/instrace_simple.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -E /home/hyeongjun/workspace/dynamorio/api/samples/instrace_simple.c > CMakeFiles/instrace_simple.dir/instrace_simple.c.i
 
 api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/instrace_simple.dir/instrace_simple.c.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -S /home/hyeongjun/workspace/dynamorio/api/samples/instrace_simple.c -o CMakeFiles/instrace_simple.dir/instrace_simple.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -S /home/hyeongjun/workspace/dynamorio/api/samples/instrace_simple.c -o CMakeFiles/instrace_simple.dir/instrace_simple.c.s
 
 api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.o.requires:
 .PHONY : api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.o.requires
@@ -74,17 +74,17 @@ api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.o.provides.build: a
 
 api/samples/CMakeFiles/instrace_simple.dir/utils.c.o: api/samples/CMakeFiles/instrace_simple.dir/flags.make
 api/samples/CMakeFiles/instrace_simple.dir/utils.c.o: /home/hyeongjun/workspace/dynamorio/api/samples/utils.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/grad_project/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object api/samples/CMakeFiles/instrace_simple.dir/utils.c.o"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -mthumb -o CMakeFiles/instrace_simple.dir/utils.c.o   -c /home/hyeongjun/workspace/dynamorio/api/samples/utils.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -mthumb -o CMakeFiles/instrace_simple.dir/utils.c.o   -c /home/hyeongjun/workspace/dynamorio/api/samples/utils.c
 
 api/samples/CMakeFiles/instrace_simple.dir/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/instrace_simple.dir/utils.c.i"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -mthumb -E /home/hyeongjun/workspace/dynamorio/api/samples/utils.c > CMakeFiles/instrace_simple.dir/utils.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -mthumb -E /home/hyeongjun/workspace/dynamorio/api/samples/utils.c > CMakeFiles/instrace_simple.dir/utils.c.i
 
 api/samples/CMakeFiles/instrace_simple.dir/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/instrace_simple.dir/utils.c.s"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -mthumb -S /home/hyeongjun/workspace/dynamorio/api/samples/utils.c -o CMakeFiles/instrace_simple.dir/utils.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -mthumb -S /home/hyeongjun/workspace/dynamorio/api/samples/utils.c -o CMakeFiles/instrace_simple.dir/utils.c.s
 
 api/samples/CMakeFiles/instrace_simple.dir/utils.c.o.requires:
 .PHONY : api/samples/CMakeFiles/instrace_simple.dir/utils.c.o.requires
@@ -113,8 +113,8 @@ api/bin/libinstrace_simple.so: ext/lib32/release/libdrcontainers.a
 api/bin/libinstrace_simple.so: lib32/release/libdynamorio.so
 api/bin/libinstrace_simple.so: api/samples/CMakeFiles/instrace_simple.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../bin/libinstrace_simple.so"
-	cd /home/hyeongjun/workspace/grad_project/build_arm/api/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/instrace_simple.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/hyeongjun/workspace/grad_project/build_arm/api/samples && /usr/bin/cmake -E echo "Usage: pass to drconfig or drrun: -c /home/hyeongjun/workspace/grad_project/build_arm/api/samples/../bin/libinstrace_simple.so"
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/instrace_simple.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/cmake -E echo "Usage: pass to drconfig or drrun: -c /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/../bin/libinstrace_simple.so"
 
 # Rule to build all files generated by this target.
 api/samples/CMakeFiles/instrace_simple.dir/build: api/bin/libinstrace_simple.so
@@ -125,10 +125,10 @@ api/samples/CMakeFiles/instrace_simple.dir/requires: api/samples/CMakeFiles/inst
 .PHONY : api/samples/CMakeFiles/instrace_simple.dir/requires
 
 api/samples/CMakeFiles/instrace_simple.dir/clean:
-	cd /home/hyeongjun/workspace/grad_project/build_arm/api/samples && $(CMAKE_COMMAND) -P CMakeFiles/instrace_simple.dir/cmake_clean.cmake
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && $(CMAKE_COMMAND) -P CMakeFiles/instrace_simple.dir/cmake_clean.cmake
 .PHONY : api/samples/CMakeFiles/instrace_simple.dir/clean
 
 api/samples/CMakeFiles/instrace_simple.dir/depend:
-	cd /home/hyeongjun/workspace/grad_project/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/api/samples /home/hyeongjun/workspace/grad_project/build_arm /home/hyeongjun/workspace/grad_project/build_arm/api/samples /home/hyeongjun/workspace/grad_project/build_arm/api/samples/CMakeFiles/instrace_simple.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/CMakeFiles/instrace_simple.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : api/samples/CMakeFiles/instrace_simple.dir/depend
 

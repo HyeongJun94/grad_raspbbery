@@ -3,11 +3,11 @@
 
 # compile ASM with /usr/bin/arm-linux-gnueabihf-as
 # compile C with /usr/bin/arm-linux-gnueabihf-gcc
-ASM_FLAGS = -O2 -g -DNDEBUG -fPIC -I/home/hyeongjun/workspace/grad_project/build_arm -I/home/hyeongjun/workspace/grad_project/build_arm/cmake -I/home/hyeongjun/workspace/grad_project/build_arm/cmake/../include -I/home/hyeongjun/workspace/dynamorio/ext/drwrap/ext/lib32/release -I/home/hyeongjun/workspace/grad_project/build_arm/ext/include     -DARM_32 -DLINUX -DUSE_VISIBILITY_ATTRIBUTES -fPIC -DASSEMBLE_WITH_GAS
+ASM_FLAGS = -O2 -g -DNDEBUG -fPIC -I/home/hyeongjun/workspace/raspberrypi/build_arm -I/home/hyeongjun/workspace/raspberrypi/build_arm/cmake -I/home/hyeongjun/workspace/raspberrypi/build_arm/cmake/../include -I/home/hyeongjun/workspace/dynamorio/ext/drwrap/ext/lib32/release -I/home/hyeongjun/workspace/raspberrypi/build_arm/ext/include     -DARM_32 -DLINUX -DUSE_VISIBILITY_ATTRIBUTES -fPIC -DASSEMBLE_WITH_GAS
 
 ASM_DEFINES = -Ddrwrap_EXPORTS
 
-C_FLAGS =     -fPIC -I/home/hyeongjun/workspace/grad_project/build_arm -I/home/hyeongjun/workspace/grad_project/build_arm/cmake -I/home/hyeongjun/workspace/grad_project/build_arm/cmake/../include -I/home/hyeongjun/workspace/dynamorio/ext/drwrap/ext/lib32/release -I/home/hyeongjun/workspace/grad_project/build_arm/ext/include     -DARM_32 -DLINUX -DUSE_VISIBILITY_ATTRIBUTES -fPIC -DASSEMBLE_WITH_GAS
+C_FLAGS =     -fPIC -I/home/hyeongjun/workspace/raspberrypi/build_arm -I/home/hyeongjun/workspace/raspberrypi/build_arm/cmake -I/home/hyeongjun/workspace/raspberrypi/build_arm/cmake/../include -I/home/hyeongjun/workspace/dynamorio/ext/drwrap/ext/lib32/release -I/home/hyeongjun/workspace/raspberrypi/build_arm/ext/include     -DARM_32 -DLINUX -DUSE_VISIBILITY_ATTRIBUTES -fPIC -DASSEMBLE_WITH_GAS
 
 C_DEFINES = -Ddrwrap_EXPORTS
 

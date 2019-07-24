@@ -42,7 +42,6 @@
 #include "drmgr.h"
 #include "drwrap.h"
 #include <stdio.h>
-#include <android/sensor.h>
 
 #ifdef WINDOWS
 #    define IF_WINDOWS_ELSE(x, y) x

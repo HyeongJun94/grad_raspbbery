@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/hyeongjun/workspace/dynamorio")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/hyeongjun/workspace/grad_project/build_arm")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/hyeongjun/workspace/raspberrypi/build_arm")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

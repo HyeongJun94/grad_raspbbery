@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/directory_iterator.cpp" "/home/hyeongjun/workspace/grad_project/build_arm/clients/drcachesim/CMakeFiles/directory_iterator.dir/common/directory_iterator.cpp.o"
+  "/home/hyeongjun/workspace/dynamorio/clients/drcachesim/common/directory_iterator.cpp" "/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/directory_iterator.dir/common/directory_iterator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,8 +15,8 @@ set(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hyeongjun/workspace/grad_project/build_arm/libutil/CMakeFiles/drfrontendlib.dir/DependInfo.cmake"
-  "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drlibc.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drfrontendlib.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drlibc.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/core/unix/nudgesig.c" "/home/hyeongjun/workspace/grad_project/build_arm/libutil/CMakeFiles/drconfiglib.dir/__/core/unix/nudgesig.c.o"
-  "/home/hyeongjun/workspace/dynamorio/libutil/dr_config.c" "/home/hyeongjun/workspace/grad_project/build_arm/libutil/CMakeFiles/drconfiglib.dir/dr_config.c.o"
-  "/home/hyeongjun/workspace/dynamorio/libutil/utils.c" "/home/hyeongjun/workspace/grad_project/build_arm/libutil/CMakeFiles/drconfiglib.dir/utils.c.o"
+  "/home/hyeongjun/workspace/dynamorio/core/unix/nudgesig.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drconfiglib.dir/__/core/unix/nudgesig.c.o"
+  "/home/hyeongjun/workspace/dynamorio/libutil/dr_config.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drconfiglib.dir/dr_config.c.o"
+  "/home/hyeongjun/workspace/dynamorio/libutil/utils.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drconfiglib.dir/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hyeongjun/workspace/grad_project/build_arm/libutil/CMakeFiles/drfrontendlib.dir/DependInfo.cmake"
-  "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drlibc.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drfrontendlib.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drlibc.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

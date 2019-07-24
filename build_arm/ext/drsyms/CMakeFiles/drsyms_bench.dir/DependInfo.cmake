@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/ext/drsyms/drsyms_bench.c" "/home/hyeongjun/workspace/grad_project/build_arm/ext/drsyms/CMakeFiles/drsyms_bench.dir/drsyms_bench.c.o"
+  "/home/hyeongjun/workspace/dynamorio/ext/drsyms/drsyms_bench.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drsyms/CMakeFiles/drsyms_bench.dir/drsyms_bench.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hyeongjun/workspace/grad_project/build_arm/ext/drsyms/CMakeFiles/drsyms.dir/DependInfo.cmake"
-  "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/dynamorio.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drsyms/CMakeFiles/drsyms.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/dynamorio.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/tools/run_in_bg.c" "/home/hyeongjun/workspace/grad_project/build_arm/tools/CMakeFiles/run_in_bg.dir/run_in_bg.c.o"
+  "/home/hyeongjun/workspace/dynamorio/tools/run_in_bg.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/tools/CMakeFiles/run_in_bg.dir/run_in_bg.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/tools/drdeploy.c" "/home/hyeongjun/workspace/grad_project/build_arm/tools/CMakeFiles/drinject.dir/drdeploy.c.o"
+  "/home/hyeongjun/workspace/dynamorio/tools/drdeploy.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/tools/CMakeFiles/drinject.dir/drdeploy.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -15,11 +15,11 @@ set(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hyeongjun/workspace/grad_project/build_arm/libutil/CMakeFiles/drconfiglib.dir/DependInfo.cmake"
-  "/home/hyeongjun/workspace/grad_project/build_arm/libutil/CMakeFiles/drfrontendlib.dir/DependInfo.cmake"
-  "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drinjectlib.dir/DependInfo.cmake"
-  "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drdecode.dir/DependInfo.cmake"
-  "/home/hyeongjun/workspace/grad_project/build_arm/core/CMakeFiles/drlibc.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drconfiglib.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drfrontendlib.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drinjectlib.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drdecode.dir/DependInfo.cmake"
+  "/home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drlibc.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
