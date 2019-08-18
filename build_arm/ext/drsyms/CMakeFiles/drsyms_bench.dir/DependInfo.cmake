@@ -18,7 +18,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
   "cmake/../include"
-  "/home/hyeongjun/workspace/backup/ext/drsyms/ext/lib32/release"
+  "/home/hyeongjun/workspace/backup/ext/drsyms/ext/lib32/debug"
   "ext/include"
   "/home/hyeongjun/workspace/backup/ext/drsyms/libelftc/include"
   )

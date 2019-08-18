@@ -768,7 +768,7 @@ core/CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o: core/libgcc_udivsi3.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object core/CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-cpp  $(ASM_FLAGS) $(ASM_DEFINES) -DCPP2ASM -E /home/hyeongjun/workspace/raspberrypi/build_arm/core/libgcc_udivsi3.S -o CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/cmake -Dfile=CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o.s -P "/home/hyeongjun/workspace/backup/make/CMake_asm.cmake"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -o CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -g -o CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o.s
 
 core/CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o.requires:
 .PHONY : core/CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o.requires
@@ -785,7 +785,7 @@ core/CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o: core/libgcc_umodsi3.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object core/CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-cpp  $(ASM_FLAGS) $(ASM_DEFINES) -DCPP2ASM -E /home/hyeongjun/workspace/raspberrypi/build_arm/core/libgcc_umodsi3.S -o CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/cmake -Dfile=CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o.s -P "/home/hyeongjun/workspace/backup/make/CMake_asm.cmake"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -o CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -g -o CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o.s
 
 core/CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o.requires:
 .PHONY : core/CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o.requires
@@ -802,7 +802,7 @@ core/CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o: core/libgcc_divsi3.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object core/CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-cpp  $(ASM_FLAGS) $(ASM_DEFINES) -DCPP2ASM -E /home/hyeongjun/workspace/raspberrypi/build_arm/core/libgcc_divsi3.S -o CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/cmake -Dfile=CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o.s -P "/home/hyeongjun/workspace/backup/make/CMake_asm.cmake"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -o CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -g -o CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o.s
 
 core/CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o.requires:
 .PHONY : core/CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o.requires
@@ -819,7 +819,7 @@ core/CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o: core/libgcc_modsi3.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object core/CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-cpp  $(ASM_FLAGS) $(ASM_DEFINES) -DCPP2ASM -E /home/hyeongjun/workspace/raspberrypi/build_arm/core/libgcc_modsi3.S -o CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/cmake -Dfile=CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o.s -P "/home/hyeongjun/workspace/backup/make/CMake_asm.cmake"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -o CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -g -o CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o.s
 
 core/CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o.requires:
 .PHONY : core/CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o.requires
@@ -1575,7 +1575,7 @@ core/CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o: configure.h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object core/CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-cpp  $(ASM_FLAGS) $(ASM_DEFINES) -DCPP2ASM -E /home/hyeongjun/workspace/backup/core/arch/arm/arm.asm -o CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/cmake -Dfile=CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o.s -P "/home/hyeongjun/workspace/backup/make/CMake_asm.cmake"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -o CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -g -o CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o.s
 
 core/CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o.requires:
 .PHONY : core/CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o.requires
@@ -1595,7 +1595,7 @@ core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o: configure.h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-cpp  $(ASM_FLAGS) $(ASM_DEFINES) -DCPP2ASM -E /home/hyeongjun/workspace/backup/core/arch/aarchxx/aarchxx.asm -o CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/cmake -Dfile=CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o.s -P "/home/hyeongjun/workspace/backup/make/CMake_asm.cmake"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -o CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -g -o CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o.s
 
 core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o.requires:
 .PHONY : core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o.requires
@@ -2185,105 +2185,105 @@ dynamorio_static_OBJECTS = \
 # External object files for target dynamorio_static
 dynamorio_static_EXTERNAL_OBJECTS =
 
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/options.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/dynamo.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/fragment.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/fcache.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/link.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/dispatch.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/emit.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/utils.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/config.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/stats.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/heap.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/monitor.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/perfctr.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/vmareas.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/rct.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/hotpatch.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/hashtable.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/module_list.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/moduledb.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/perscache.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/nudge.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/synch.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/buildmark.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/loader_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/io.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/native_exec.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/lib/instrument.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/translate.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/annotations.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/jit_opt.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/string.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/__/third_party/libgcc/udivmoddi4.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arch.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/emit_utils_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/emit_utils.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/opnd_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/opnd.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/instr_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/instr.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/instrlist.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/decode_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/decode.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/encode_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/encode.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/disassemble_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/disassemble.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_a32_pred.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_a32_unpred.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_encode.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_t32_base.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_t32_coproc.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_t32_16.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_t32_16_it.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/interp.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/proc_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/proc.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/mangle_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/mangle_utils.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/mangle.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/clean_call_opt_shared.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/clean_call_opt.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/steal_reg.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/x86_code.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/optimize.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/sideline.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/retcheck.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/os.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/signal.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/module.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/pcprofile.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/stackdump.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/diagnost.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/loader.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/loader_linux.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/memquery_linux.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/memquery.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/memcache.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/module_elf.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/ksynch_linux.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/tls_linux_aarchxx.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/signal_linux.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/signal_linux_arm.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/native_elf.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/nudgesig.c.o
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/build.make
-lib32/release/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../lib32/release/libdynamorio_static.a"
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/options.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/dynamo.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/fragment.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/fcache.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/link.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/dispatch.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/emit.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/utils.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/config.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/stats.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/heap.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/monitor.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/perfctr.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/vmareas.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/rct.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/hotpatch.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/hashtable.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/module_list.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/moduledb.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/perscache.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/nudge.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/synch.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/buildmark.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/loader_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/io.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/native_exec.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/lib/instrument.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/translate.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/annotations.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/jit_opt.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/string.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/libgcc_udivsi3.S.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/libgcc_umodsi3.S.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/libgcc_divsi3.S.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/libgcc_modsi3.S.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/__/third_party/libgcc/udivmoddi4.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arch.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/emit_utils_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/emit_utils.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/opnd_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/opnd.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/instr_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/instr.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/instrlist.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/decode_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/decode.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/encode_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/encode.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/disassemble_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/disassemble.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_a32_pred.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_a32_unpred.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_encode.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_t32_base.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_t32_coproc.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_t32_16.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/table_t32_16_it.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/interp.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/proc_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/proc.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/mangle_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/mangle_utils.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/mangle.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/clean_call_opt_shared.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/clean_call_opt.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/steal_reg.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/x86_code.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/arm.asm.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/aarchxx/aarchxx.asm.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/arm/optimize.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/sideline.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/arch/retcheck.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/os.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/signal.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/module.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/pcprofile.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/stackdump.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/diagnost.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/loader.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/loader_linux.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/memquery_linux.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/memquery.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/memcache.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/module_elf.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/ksynch_linux.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/tls_linux_aarchxx.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/signal_linux.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/signal_linux_arm.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/native_elf.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/unix/nudgesig.c.o
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/build.make
+lib32/debug/libdynamorio_static.a: core/CMakeFiles/dynamorio_static.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../lib32/debug/libdynamorio_static.a"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && $(CMAKE_COMMAND) -P CMakeFiles/dynamorio_static.dir/cmake_clean_target.cmake
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamorio_static.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/lib32/release && /usr/bin/cmake -D lib_fileloc=/home/hyeongjun/workspace/raspberrypi/build_arm/core/dynamorio_static_loc -D CMAKE_C_COMPILER=/usr/bin/arm-linux-gnueabihf-gcc -D "partial_link_flags=-mthumb;-march=armv7-a;;-fno-strict-aliasing;-fno-stack-protector;-fvisibility=internal;;-std=gnu99;-fno-unwind-tables;-O3;-g3;-Wall;-Werror;-Wwrite-strings;-Wno-unused-but-set-variable" -D disable_pie_flag= -D localize_hidden=ON -D CMAKE_OBJCOPY=/usr/bin/arm-linux-gnueabihf-objcopy -D CMAKE_AR=/usr/bin/arm-linux-gnueabihf-ar -D CMAKE_RANLIB=/usr/bin/arm-linux-gnueabihf-ranlib -P /home/hyeongjun/workspace/backup/core/CMake_finalize_static_lib.cmake
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/lib32/debug && /usr/bin/cmake -D lib_fileloc=/home/hyeongjun/workspace/raspberrypi/build_arm/core/dynamorio_static_loc -D CMAKE_C_COMPILER=/usr/bin/arm-linux-gnueabihf-gcc -D "partial_link_flags=-mthumb;-march=armv7-a;;-fno-strict-aliasing;-fno-stack-protector;-fvisibility=internal;;-std=gnu99;-g3;-fno-omit-frame-pointer;-fno-builtin-strcmp;-Wall;-Werror;-Wwrite-strings;-Wno-unused-but-set-variable" -D disable_pie_flag= -D localize_hidden=ON -D CMAKE_OBJCOPY=/usr/bin/arm-linux-gnueabihf-objcopy -D CMAKE_AR=/usr/bin/arm-linux-gnueabihf-ar -D CMAKE_RANLIB=/usr/bin/arm-linux-gnueabihf-ranlib -P /home/hyeongjun/workspace/backup/core/CMake_finalize_static_lib.cmake
 
 # Rule to build all files generated by this target.
-core/CMakeFiles/dynamorio_static.dir/build: lib32/release/libdynamorio_static.a
+core/CMakeFiles/dynamorio_static.dir/build: lib32/debug/libdynamorio_static.a
 .PHONY : core/CMakeFiles/dynamorio_static.dir/build
 
 core/CMakeFiles/dynamorio_static.dir/requires: core/CMakeFiles/dynamorio_static.dir/options.c.o.requires

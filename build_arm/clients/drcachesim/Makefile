@@ -1079,6 +1079,7 @@ tests/trace_invariants.o: tests/trace_invariants.cpp.o
 
 # target to build an object file
 tests/trace_invariants.cpp.o:
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/drcachesim.dir/build.make clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.o
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/histogram_launcher.dir/build.make clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.o
 .PHONY : tests/trace_invariants.cpp.o
 
@@ -1087,6 +1088,7 @@ tests/trace_invariants.i: tests/trace_invariants.cpp.i
 
 # target to preprocess a source file
 tests/trace_invariants.cpp.i:
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/drcachesim.dir/build.make clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.i
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/histogram_launcher.dir/build.make clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.i
 .PHONY : tests/trace_invariants.cpp.i
 
@@ -1095,6 +1097,7 @@ tests/trace_invariants.s: tests/trace_invariants.cpp.s
 
 # target to generate assembly for a file
 tests/trace_invariants.cpp.s:
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/drcachesim.dir/build.make clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/histogram_launcher.dir/build.make clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.s
 .PHONY : tests/trace_invariants.cpp.s
 

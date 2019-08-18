@@ -25,6 +25,7 @@ tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o: /home/hyeongjun/worksp
 tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o: /home/hyeongjun/workspace/backup/core/utils.h
 tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o: /home/hyeongjun/workspace/backup/core/vmareas.h
 tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o: configure.h
+tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o: event_strings.h
 
 tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o: /home/hyeongjun/workspace/backup/core/lib/c_defines.h
 tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o: /home/hyeongjun/workspace/backup/core/lib/globals_shared.h

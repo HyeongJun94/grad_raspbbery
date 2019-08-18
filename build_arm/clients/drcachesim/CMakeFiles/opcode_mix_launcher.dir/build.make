@@ -81,21 +81,21 @@ opcode_mix_launcher_EXTERNAL_OBJECTS =
 
 clients/bin32/opcode_mix_launcher: clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/tools/opcode_mix_launcher.cpp.o
 clients/bin32/opcode_mix_launcher: clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/build.make
-clients/bin32/opcode_mix_launcher: clients/lib32/release/libdrmemtrace_analyzer.a
-clients/bin32/opcode_mix_launcher: clients/lib32/release/libdrmemtrace_opcode_mix.a
-clients/bin32/opcode_mix_launcher: clients/lib32/release/libdrmemtrace_raw2trace.a
-clients/bin32/opcode_mix_launcher: ext/lib32/release/libdrcovlib_static.a
+clients/bin32/opcode_mix_launcher: clients/lib32/debug/libdrmemtrace_analyzer.a
+clients/bin32/opcode_mix_launcher: clients/lib32/debug/libdrmemtrace_opcode_mix.a
+clients/bin32/opcode_mix_launcher: clients/lib32/debug/libdrmemtrace_raw2trace.a
+clients/bin32/opcode_mix_launcher: ext/lib32/debug/libdrcovlib_static.a
 clients/bin32/opcode_mix_launcher: lib32/libdrfrontendlib.a
-clients/bin32/opcode_mix_launcher: lib32/release/libdynamorio_static.a
-clients/bin32/opcode_mix_launcher: clients/lib32/release/libdirectory_iterator.a
+clients/bin32/opcode_mix_launcher: lib32/debug/libdynamorio_static.a
+clients/bin32/opcode_mix_launcher: clients/lib32/debug/libdirectory_iterator.a
 clients/bin32/opcode_mix_launcher: lib32/libdrfrontendlib.a
 clients/bin32/opcode_mix_launcher: /usr/arm-linux-gnueabihf/lib/libpthread.so
-clients/bin32/opcode_mix_launcher: ext/lib32/release/libdrutil_static.a
-clients/bin32/opcode_mix_launcher: ext/lib32/release/libdrx_static.a
-clients/bin32/opcode_mix_launcher: ext/lib32/release/libdrreg_static.a
-clients/bin32/opcode_mix_launcher: ext/lib32/release/libdrcontainers.a
-clients/bin32/opcode_mix_launcher: ext/lib32/release/libdrmgr_static.a
-clients/bin32/opcode_mix_launcher: lib32/release/libdynamorio.so
+clients/bin32/opcode_mix_launcher: ext/lib32/debug/libdrutil_static.a
+clients/bin32/opcode_mix_launcher: ext/lib32/debug/libdrx_static.a
+clients/bin32/opcode_mix_launcher: ext/lib32/debug/libdrreg_static.a
+clients/bin32/opcode_mix_launcher: ext/lib32/debug/libdrcontainers.a
+clients/bin32/opcode_mix_launcher: ext/lib32/debug/libdrmgr_static.a
+clients/bin32/opcode_mix_launcher: lib32/debug/libdynamorio.so
 clients/bin32/opcode_mix_launcher: lib32/libdrlibc.a
 clients/bin32/opcode_mix_launcher: clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../bin32/opcode_mix_launcher"

@@ -53,15 +53,15 @@ ext/drx/CMakeFiles/drx.dir/drx.c.o: ext/drx/CMakeFiles/drx.dir/flags.make
 ext/drx/CMakeFiles/drx.dir/drx.c.o: /home/hyeongjun/workspace/backup/ext/drx/drx.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object ext/drx/CMakeFiles/drx.dir/drx.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drx.dir/drx.c.o   -c /home/hyeongjun/workspace/backup/ext/drx/drx.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drx.dir/drx.c.o   -c /home/hyeongjun/workspace/backup/ext/drx/drx.c
 
 ext/drx/CMakeFiles/drx.dir/drx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drx.dir/drx.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drx/drx.c > CMakeFiles/drx.dir/drx.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drx/drx.c > CMakeFiles/drx.dir/drx.c.i
 
 ext/drx/CMakeFiles/drx.dir/drx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drx.dir/drx.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drx/drx.c -o CMakeFiles/drx.dir/drx.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drx/drx.c -o CMakeFiles/drx.dir/drx.c.s
 
 ext/drx/CMakeFiles/drx.dir/drx.c.o.requires:
 .PHONY : ext/drx/CMakeFiles/drx.dir/drx.c.o.requires
@@ -76,15 +76,15 @@ ext/drx/CMakeFiles/drx.dir/drx_buf.c.o: ext/drx/CMakeFiles/drx.dir/flags.make
 ext/drx/CMakeFiles/drx.dir/drx_buf.c.o: /home/hyeongjun/workspace/backup/ext/drx/drx_buf.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object ext/drx/CMakeFiles/drx.dir/drx_buf.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drx.dir/drx_buf.c.o   -c /home/hyeongjun/workspace/backup/ext/drx/drx_buf.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drx.dir/drx_buf.c.o   -c /home/hyeongjun/workspace/backup/ext/drx/drx_buf.c
 
 ext/drx/CMakeFiles/drx.dir/drx_buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drx.dir/drx_buf.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drx/drx_buf.c > CMakeFiles/drx.dir/drx_buf.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drx/drx_buf.c > CMakeFiles/drx.dir/drx_buf.c.i
 
 ext/drx/CMakeFiles/drx.dir/drx_buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drx.dir/drx_buf.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drx/drx_buf.c -o CMakeFiles/drx.dir/drx_buf.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drx/drx_buf.c -o CMakeFiles/drx.dir/drx_buf.c.s
 
 ext/drx/CMakeFiles/drx.dir/drx_buf.c.o.requires:
 .PHONY : ext/drx/CMakeFiles/drx.dir/drx_buf.c.o.requires
@@ -103,20 +103,20 @@ drx_OBJECTS = \
 # External object files for target drx
 drx_EXTERNAL_OBJECTS =
 
-ext/lib32/release/libdrx.so: ext/drx/CMakeFiles/drx.dir/drx.c.o
-ext/lib32/release/libdrx.so: ext/drx/CMakeFiles/drx.dir/drx_buf.c.o
-ext/lib32/release/libdrx.so: ext/drx/CMakeFiles/drx.dir/build.make
-ext/lib32/release/libdrx.so: ext/lib32/release/libdrcontainers.a
-ext/lib32/release/libdrx.so: ext/lib32/release/libdrreg.so
-ext/lib32/release/libdrx.so: ext/lib32/release/libdrmgr.so
-ext/lib32/release/libdrx.so: ext/lib32/release/libdrcontainers.a
-ext/lib32/release/libdrx.so: lib32/release/libdynamorio.so
-ext/lib32/release/libdrx.so: ext/drx/CMakeFiles/drx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../lib32/release/libdrx.so"
+ext/lib32/debug/libdrx.so: ext/drx/CMakeFiles/drx.dir/drx.c.o
+ext/lib32/debug/libdrx.so: ext/drx/CMakeFiles/drx.dir/drx_buf.c.o
+ext/lib32/debug/libdrx.so: ext/drx/CMakeFiles/drx.dir/build.make
+ext/lib32/debug/libdrx.so: ext/lib32/debug/libdrcontainers.a
+ext/lib32/debug/libdrx.so: ext/lib32/debug/libdrreg.so
+ext/lib32/debug/libdrx.so: ext/lib32/debug/libdrmgr.so
+ext/lib32/debug/libdrx.so: ext/lib32/debug/libdrcontainers.a
+ext/lib32/debug/libdrx.so: lib32/debug/libdynamorio.so
+ext/lib32/debug/libdrx.so: ext/drx/CMakeFiles/drx.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../lib32/debug/libdrx.so"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drx.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ext/drx/CMakeFiles/drx.dir/build: ext/lib32/release/libdrx.so
+ext/drx/CMakeFiles/drx.dir/build: ext/lib32/debug/libdrx.so
 .PHONY : ext/drx/CMakeFiles/drx.dir/build
 
 ext/drx/CMakeFiles/drx.dir/requires: ext/drx/CMakeFiles/drx.dir/drx.c.o.requires

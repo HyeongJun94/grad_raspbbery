@@ -53,15 +53,15 @@ clients/drcov/CMakeFiles/drcov.dir/drcov.c.o: clients/drcov/CMakeFiles/drcov.dir
 clients/drcov/CMakeFiles/drcov.dir/drcov.c.o: /home/hyeongjun/workspace/backup/clients/drcov/drcov.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object clients/drcov/CMakeFiles/drcov.dir/drcov.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -o CMakeFiles/drcov.dir/drcov.c.o   -c /home/hyeongjun/workspace/backup/clients/drcov/drcov.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -o CMakeFiles/drcov.dir/drcov.c.o   -c /home/hyeongjun/workspace/backup/clients/drcov/drcov.c
 
 clients/drcov/CMakeFiles/drcov.dir/drcov.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drcov.dir/drcov.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -E /home/hyeongjun/workspace/backup/clients/drcov/drcov.c > CMakeFiles/drcov.dir/drcov.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -E /home/hyeongjun/workspace/backup/clients/drcov/drcov.c > CMakeFiles/drcov.dir/drcov.c.i
 
 clients/drcov/CMakeFiles/drcov.dir/drcov.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drcov.dir/drcov.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -S /home/hyeongjun/workspace/backup/clients/drcov/drcov.c -o CMakeFiles/drcov.dir/drcov.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -S /home/hyeongjun/workspace/backup/clients/drcov/drcov.c -o CMakeFiles/drcov.dir/drcov.c.s
 
 clients/drcov/CMakeFiles/drcov.dir/drcov.c.o.requires:
 .PHONY : clients/drcov/CMakeFiles/drcov.dir/drcov.c.o.requires
@@ -79,21 +79,21 @@ drcov_OBJECTS = \
 # External object files for target drcov
 drcov_EXTERNAL_OBJECTS =
 
-clients/lib32/release/libdrcov.so: clients/drcov/CMakeFiles/drcov.dir/drcov.c.o
-clients/lib32/release/libdrcov.so: clients/drcov/CMakeFiles/drcov.dir/build.make
-clients/lib32/release/libdrcov.so: ext/lib32/release/libdrcovlib.so
-clients/lib32/release/libdrcov.so: ext/lib32/release/libdrx.so
-clients/lib32/release/libdrcov.so: ext/lib32/release/libdrreg.so
-clients/lib32/release/libdrcov.so: ext/lib32/release/libdrcontainers.a
-clients/lib32/release/libdrcov.so: ext/lib32/release/libdrmgr.so
-clients/lib32/release/libdrcov.so: lib32/release/libdynamorio.so
-clients/lib32/release/libdrcov.so: clients/drcov/CMakeFiles/drcov.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../lib32/release/libdrcov.so"
+clients/lib32/debug/libdrcov.so: clients/drcov/CMakeFiles/drcov.dir/drcov.c.o
+clients/lib32/debug/libdrcov.so: clients/drcov/CMakeFiles/drcov.dir/build.make
+clients/lib32/debug/libdrcov.so: ext/lib32/debug/libdrcovlib.so
+clients/lib32/debug/libdrcov.so: ext/lib32/debug/libdrx.so
+clients/lib32/debug/libdrcov.so: ext/lib32/debug/libdrreg.so
+clients/lib32/debug/libdrcov.so: ext/lib32/debug/libdrcontainers.a
+clients/lib32/debug/libdrcov.so: ext/lib32/debug/libdrmgr.so
+clients/lib32/debug/libdrcov.so: lib32/debug/libdynamorio.so
+clients/lib32/debug/libdrcov.so: clients/drcov/CMakeFiles/drcov.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../lib32/debug/libdrcov.so"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drcov.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/cmake -E echo "Usage: pass to drconfig or drrun: -t drcov"
 
 # Rule to build all files generated by this target.
-clients/drcov/CMakeFiles/drcov.dir/build: clients/lib32/release/libdrcov.so
+clients/drcov/CMakeFiles/drcov.dir/build: clients/lib32/debug/libdrcov.so
 .PHONY : clients/drcov/CMakeFiles/drcov.dir/build
 
 clients/drcov/CMakeFiles/drcov.dir/requires: clients/drcov/CMakeFiles/drcov.dir/drcov.c.o.requires

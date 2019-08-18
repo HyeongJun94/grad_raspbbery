@@ -176,6 +176,13 @@ clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o:
 clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o: ext/include/droption.h
 clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o: ext/include/hashtable.h
 
+clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/analysis_tool.h
+clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/common/memref.h
+clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/common/trace_entry.h
+clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/common/utils.h
+clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.cpp
+clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.h
+
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/common/trace_entry.h
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/common/utils.h
 clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/tracer/instru.cpp

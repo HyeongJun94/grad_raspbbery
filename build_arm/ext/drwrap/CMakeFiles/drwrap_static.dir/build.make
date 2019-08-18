@@ -53,15 +53,15 @@ ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.o: ext/drwrap/CMakeFiles/drwrap
 ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.o: /home/hyeongjun/workspace/backup/ext/drwrap/drwrap.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drwrap_static.dir/drwrap.c.o   -c /home/hyeongjun/workspace/backup/ext/drwrap/drwrap.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drwrap_static.dir/drwrap.c.o   -c /home/hyeongjun/workspace/backup/ext/drwrap/drwrap.c
 
 ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drwrap_static.dir/drwrap.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drwrap/drwrap.c > CMakeFiles/drwrap_static.dir/drwrap.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drwrap/drwrap.c > CMakeFiles/drwrap_static.dir/drwrap.c.i
 
 ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drwrap_static.dir/drwrap.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drwrap/drwrap.c -o CMakeFiles/drwrap_static.dir/drwrap.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drwrap/drwrap.c -o CMakeFiles/drwrap_static.dir/drwrap.c.s
 
 ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.o.requires:
 .PHONY : ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.o.requires
@@ -80,7 +80,7 @@ ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o: cmake/cpp2asm_defi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/arm-linux-gnueabihf-cpp  $(ASM_FLAGS) $(ASM_DEFINES) -DCPP2ASM -E /home/hyeongjun/workspace/backup/ext/drwrap/drwrap_asm_arm.asm -o CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/cmake -Dfile=CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o.s -P "/home/hyeongjun/workspace/backup/make/CMake_asm.cmake"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -o CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -g -o CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o.s
 
 ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o.requires:
 .PHONY : ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o.requires
@@ -99,16 +99,16 @@ drwrap_static_OBJECTS = \
 # External object files for target drwrap_static
 drwrap_static_EXTERNAL_OBJECTS =
 
-ext/lib32/release/libdrwrap_static.a: ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.o
-ext/lib32/release/libdrwrap_static.a: ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o
-ext/lib32/release/libdrwrap_static.a: ext/drwrap/CMakeFiles/drwrap_static.dir/build.make
-ext/lib32/release/libdrwrap_static.a: ext/drwrap/CMakeFiles/drwrap_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../lib32/release/libdrwrap_static.a"
+ext/lib32/debug/libdrwrap_static.a: ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.o
+ext/lib32/debug/libdrwrap_static.a: ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap_asm_arm.asm.o
+ext/lib32/debug/libdrwrap_static.a: ext/drwrap/CMakeFiles/drwrap_static.dir/build.make
+ext/lib32/debug/libdrwrap_static.a: ext/drwrap/CMakeFiles/drwrap_static.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../lib32/debug/libdrwrap_static.a"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && $(CMAKE_COMMAND) -P CMakeFiles/drwrap_static.dir/cmake_clean_target.cmake
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drwrap_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ext/drwrap/CMakeFiles/drwrap_static.dir/build: ext/lib32/release/libdrwrap_static.a
+ext/drwrap/CMakeFiles/drwrap_static.dir/build: ext/lib32/debug/libdrwrap_static.a
 .PHONY : ext/drwrap/CMakeFiles/drwrap_static.dir/build
 
 ext/drwrap/CMakeFiles/drwrap_static.dir/requires: ext/drwrap/CMakeFiles/drwrap_static.dir/drwrap.c.o.requires

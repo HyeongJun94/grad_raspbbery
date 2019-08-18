@@ -11,7 +11,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS
-  "NDEBUG"
   "UNIX"
   )
 

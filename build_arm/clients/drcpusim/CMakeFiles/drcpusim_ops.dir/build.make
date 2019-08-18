@@ -76,15 +76,15 @@ clients/drcpusim/CMakeFiles/drcpusim_ops.dir/options.cpp.o: clients/drcpusim/CMa
 clients/drcpusim/CMakeFiles/drcpusim_ops.dir/options.cpp.o: /home/hyeongjun/workspace/backup/clients/drcpusim/options.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcpusim/CMakeFiles/drcpusim_ops.dir/options.cpp.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -o CMakeFiles/drcpusim_ops.dir/options.cpp.o -c /home/hyeongjun/workspace/backup/clients/drcpusim/options.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -o CMakeFiles/drcpusim_ops.dir/options.cpp.o -c /home/hyeongjun/workspace/backup/clients/drcpusim/options.cpp
 
 clients/drcpusim/CMakeFiles/drcpusim_ops.dir/options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drcpusim_ops.dir/options.cpp.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -E /home/hyeongjun/workspace/backup/clients/drcpusim/options.cpp > CMakeFiles/drcpusim_ops.dir/options.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -E /home/hyeongjun/workspace/backup/clients/drcpusim/options.cpp > CMakeFiles/drcpusim_ops.dir/options.cpp.i
 
 clients/drcpusim/CMakeFiles/drcpusim_ops.dir/options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drcpusim_ops.dir/options.cpp.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -S /home/hyeongjun/workspace/backup/clients/drcpusim/options.cpp -o CMakeFiles/drcpusim_ops.dir/options.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -S /home/hyeongjun/workspace/backup/clients/drcpusim/options.cpp -o CMakeFiles/drcpusim_ops.dir/options.cpp.s
 
 clients/drcpusim/CMakeFiles/drcpusim_ops.dir/options.cpp.o.requires:
 .PHONY : clients/drcpusim/CMakeFiles/drcpusim_ops.dir/options.cpp.o.requires

@@ -12,8 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/drmemtrace_simulator.dir/simulator/snoop_filter.cpp.o"
   "CMakeFiles/drmemtrace_simulator.dir/simulator/tlb.cpp.o"
   "CMakeFiles/drmemtrace_simulator.dir/simulator/tlb_simulator.cpp.o"
-  "../lib32/release/libdrmemtrace_simulator.pdb"
-  "../lib32/release/libdrmemtrace_simulator.a"
+  "../lib32/debug/libdrmemtrace_simulator.pdb"
+  "../lib32/debug/libdrmemtrace_simulator.a"
 )
 
 # Per-language clean rules from dependency scanning.

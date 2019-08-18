@@ -58,7 +58,7 @@ core/CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o: configure.h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object core/CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-cpp  $(ASM_FLAGS) $(ASM_DEFINES) -DCPP2ASM -E /home/hyeongjun/workspace/backup/core/drlibc/drlibc_xarch.asm -o CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/cmake -Dfile=CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o.s -P "/home/hyeongjun/workspace/backup/make/CMake_asm.cmake"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -o CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -g -o CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o.s
 
 core/CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o.requires:
 .PHONY : core/CMakeFiles/drlibc.dir/drlibc/drlibc_xarch.asm.o.requires
@@ -78,7 +78,7 @@ core/CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o: configure.h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object core/CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-cpp  $(ASM_FLAGS) $(ASM_DEFINES) -DCPP2ASM -E /home/hyeongjun/workspace/backup/core/drlibc/drlibc_arm.asm -o CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o.s
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/cmake -Dfile=CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o.s -P "/home/hyeongjun/workspace/backup/make/CMake_asm.cmake"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -o CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-as   -mfpu=neon -mno-warn-deprecated --noexecstack -g -o CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o.s
 
 core/CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o.requires:
 .PHONY : core/CMakeFiles/drlibc.dir/drlibc/drlibc_arm.asm.o.requires

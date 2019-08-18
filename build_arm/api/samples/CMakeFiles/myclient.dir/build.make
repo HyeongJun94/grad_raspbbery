@@ -53,15 +53,15 @@ api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o: api/samples/CMakeFiles/m
 api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o: /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -o CMakeFiles/myclient.dir/myclient_cxx.cpp.o -c /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -o CMakeFiles/myclient.dir/myclient_cxx.cpp.o -c /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp
 
 api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myclient.dir/myclient_cxx.cpp.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -E /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp > CMakeFiles/myclient.dir/myclient_cxx.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -E /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp > CMakeFiles/myclient.dir/myclient_cxx.cpp.i
 
 api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myclient.dir/myclient_cxx.cpp.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -S /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp -o CMakeFiles/myclient.dir/myclient_cxx.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -S /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp -o CMakeFiles/myclient.dir/myclient_cxx.cpp.s
 
 api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o.requires:
 .PHONY : api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o.requires
@@ -81,11 +81,11 @@ myclient_EXTERNAL_OBJECTS =
 
 api/bin/libmyclient.so: api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o
 api/bin/libmyclient.so: api/samples/CMakeFiles/myclient.dir/build.make
-api/bin/libmyclient.so: ext/lib32/release/libdrwrap.so
-api/bin/libmyclient.so: ext/lib32/release/libdrmgr.so
-api/bin/libmyclient.so: ext/lib32/release/libdrsyms.so
-api/bin/libmyclient.so: ext/lib32/release/libdrcontainers.a
-api/bin/libmyclient.so: lib32/release/libdynamorio.so
+api/bin/libmyclient.so: ext/lib32/debug/libdrwrap.so
+api/bin/libmyclient.so: ext/lib32/debug/libdrmgr.so
+api/bin/libmyclient.so: ext/lib32/debug/libdrsyms.so
+api/bin/libmyclient.so: ext/lib32/debug/libdrcontainers.a
+api/bin/libmyclient.so: lib32/debug/libdynamorio.so
 api/bin/libmyclient.so: api/samples/CMakeFiles/myclient.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../bin/libmyclient.so"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myclient.dir/link.txt --verbose=$(VERBOSE)

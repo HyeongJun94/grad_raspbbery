@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/hyeongjun/workspace/backup/clients/drcachesim/reader/ipc_reader.cpp" "/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/drcachesim.dir/reader/ipc_reader.cpp.o"
   "/home/hyeongjun/workspace/backup/clients/drcachesim/reader/reader.cpp" "/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/drcachesim.dir/reader/reader.cpp.o"
   "/home/hyeongjun/workspace/backup/clients/drcachesim/simulator/analyzer_interface.cpp" "/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/drcachesim.dir/simulator/analyzer_interface.cpp.o"
+  "/home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.cpp" "/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/drcachesim.dir/tests/trace_invariants.cpp.o"
   "/home/hyeongjun/workspace/backup/clients/drcachesim/tracer/instru.cpp" "/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru.cpp.o"
   "/home/hyeongjun/workspace/backup/clients/drcachesim/tracer/instru_online.cpp" "/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/drcachesim.dir/tracer/instru_online.cpp.o"
   )
@@ -22,7 +23,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS
-  "NDEBUG"
   "UNIX"
   )
 

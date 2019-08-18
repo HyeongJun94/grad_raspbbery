@@ -53,15 +53,15 @@ api/samples/CMakeFiles/inscount.dir/inscount.cpp.o: api/samples/CMakeFiles/insco
 api/samples/CMakeFiles/inscount.dir/inscount.cpp.o: /home/hyeongjun/workspace/backup/api/samples/inscount.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object api/samples/CMakeFiles/inscount.dir/inscount.cpp.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -o CMakeFiles/inscount.dir/inscount.cpp.o -c /home/hyeongjun/workspace/backup/api/samples/inscount.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -o CMakeFiles/inscount.dir/inscount.cpp.o -c /home/hyeongjun/workspace/backup/api/samples/inscount.cpp
 
 api/samples/CMakeFiles/inscount.dir/inscount.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/inscount.dir/inscount.cpp.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -E /home/hyeongjun/workspace/backup/api/samples/inscount.cpp > CMakeFiles/inscount.dir/inscount.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -E /home/hyeongjun/workspace/backup/api/samples/inscount.cpp > CMakeFiles/inscount.dir/inscount.cpp.i
 
 api/samples/CMakeFiles/inscount.dir/inscount.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/inscount.dir/inscount.cpp.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -S /home/hyeongjun/workspace/backup/api/samples/inscount.cpp -o CMakeFiles/inscount.dir/inscount.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -S /home/hyeongjun/workspace/backup/api/samples/inscount.cpp -o CMakeFiles/inscount.dir/inscount.cpp.s
 
 api/samples/CMakeFiles/inscount.dir/inscount.cpp.o.requires:
 .PHONY : api/samples/CMakeFiles/inscount.dir/inscount.cpp.o.requires
@@ -81,8 +81,8 @@ inscount_EXTERNAL_OBJECTS =
 
 api/bin/libinscount.so: api/samples/CMakeFiles/inscount.dir/inscount.cpp.o
 api/bin/libinscount.so: api/samples/CMakeFiles/inscount.dir/build.make
-api/bin/libinscount.so: ext/lib32/release/libdrmgr.so
-api/bin/libinscount.so: lib32/release/libdynamorio.so
+api/bin/libinscount.so: ext/lib32/debug/libdrmgr.so
+api/bin/libinscount.so: lib32/debug/libdynamorio.so
 api/bin/libinscount.so: api/samples/CMakeFiles/inscount.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../bin/libinscount.so"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/inscount.dir/link.txt --verbose=$(VERBOSE)

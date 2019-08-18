@@ -25,7 +25,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
   "cmake"
   "cmake/../include"
-  "/home/hyeongjun/workspace/backup/ext/drwrap/ext/lib32/release"
+  "/home/hyeongjun/workspace/backup/ext/drwrap/ext/lib32/debug"
   "ext/include"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

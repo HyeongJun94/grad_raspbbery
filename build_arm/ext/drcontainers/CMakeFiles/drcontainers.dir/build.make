@@ -53,15 +53,15 @@ ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.o: ext/drcontainers/CMa
 ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.o: /home/hyeongjun/workspace/backup/ext/drcontainers/hashtable.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drcontainers.dir/hashtable.c.o   -c /home/hyeongjun/workspace/backup/ext/drcontainers/hashtable.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drcontainers.dir/hashtable.c.o   -c /home/hyeongjun/workspace/backup/ext/drcontainers/hashtable.c
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drcontainers.dir/hashtable.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drcontainers/hashtable.c > CMakeFiles/drcontainers.dir/hashtable.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drcontainers/hashtable.c > CMakeFiles/drcontainers.dir/hashtable.c.i
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drcontainers.dir/hashtable.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drcontainers/hashtable.c -o CMakeFiles/drcontainers.dir/hashtable.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drcontainers/hashtable.c -o CMakeFiles/drcontainers.dir/hashtable.c.s
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.o.requires:
 .PHONY : ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.o.requires
@@ -76,15 +76,15 @@ ext/drcontainers/CMakeFiles/drcontainers.dir/drvector.c.o: ext/drcontainers/CMak
 ext/drcontainers/CMakeFiles/drcontainers.dir/drvector.c.o: /home/hyeongjun/workspace/backup/ext/drcontainers/drvector.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object ext/drcontainers/CMakeFiles/drcontainers.dir/drvector.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drcontainers.dir/drvector.c.o   -c /home/hyeongjun/workspace/backup/ext/drcontainers/drvector.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drcontainers.dir/drvector.c.o   -c /home/hyeongjun/workspace/backup/ext/drcontainers/drvector.c
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/drvector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drcontainers.dir/drvector.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drcontainers/drvector.c > CMakeFiles/drcontainers.dir/drvector.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drcontainers/drvector.c > CMakeFiles/drcontainers.dir/drvector.c.i
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/drvector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drcontainers.dir/drvector.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drcontainers/drvector.c -o CMakeFiles/drcontainers.dir/drvector.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drcontainers/drvector.c -o CMakeFiles/drcontainers.dir/drvector.c.s
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/drvector.c.o.requires:
 .PHONY : ext/drcontainers/CMakeFiles/drcontainers.dir/drvector.c.o.requires
@@ -99,15 +99,15 @@ ext/drcontainers/CMakeFiles/drcontainers.dir/drtable.c.o: ext/drcontainers/CMake
 ext/drcontainers/CMakeFiles/drcontainers.dir/drtable.c.o: /home/hyeongjun/workspace/backup/ext/drcontainers/drtable.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object ext/drcontainers/CMakeFiles/drcontainers.dir/drtable.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drcontainers.dir/drtable.c.o   -c /home/hyeongjun/workspace/backup/ext/drcontainers/drtable.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drcontainers.dir/drtable.c.o   -c /home/hyeongjun/workspace/backup/ext/drcontainers/drtable.c
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/drtable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drcontainers.dir/drtable.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drcontainers/drtable.c > CMakeFiles/drcontainers.dir/drtable.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drcontainers/drtable.c > CMakeFiles/drcontainers.dir/drtable.c.i
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/drtable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drcontainers.dir/drtable.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drcontainers/drtable.c -o CMakeFiles/drcontainers.dir/drtable.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drcontainers/drtable.c -o CMakeFiles/drcontainers.dir/drtable.c.s
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/drtable.c.o.requires:
 .PHONY : ext/drcontainers/CMakeFiles/drcontainers.dir/drtable.c.o.requires
@@ -127,17 +127,17 @@ drcontainers_OBJECTS = \
 # External object files for target drcontainers
 drcontainers_EXTERNAL_OBJECTS =
 
-ext/lib32/release/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.o
-ext/lib32/release/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/drvector.c.o
-ext/lib32/release/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/drtable.c.o
-ext/lib32/release/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/build.make
-ext/lib32/release/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../lib32/release/libdrcontainers.a"
+ext/lib32/debug/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.o
+ext/lib32/debug/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/drvector.c.o
+ext/lib32/debug/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/drtable.c.o
+ext/lib32/debug/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/build.make
+ext/lib32/debug/libdrcontainers.a: ext/drcontainers/CMakeFiles/drcontainers.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../lib32/debug/libdrcontainers.a"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && $(CMAKE_COMMAND) -P CMakeFiles/drcontainers.dir/cmake_clean_target.cmake
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drcontainers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drcontainers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ext/drcontainers/CMakeFiles/drcontainers.dir/build: ext/lib32/release/libdrcontainers.a
+ext/drcontainers/CMakeFiles/drcontainers.dir/build: ext/lib32/debug/libdrcontainers.a
 .PHONY : ext/drcontainers/CMakeFiles/drcontainers.dir/build
 
 ext/drcontainers/CMakeFiles/drcontainers.dir/requires: ext/drcontainers/CMakeFiles/drcontainers.dir/hashtable.c.o.requires

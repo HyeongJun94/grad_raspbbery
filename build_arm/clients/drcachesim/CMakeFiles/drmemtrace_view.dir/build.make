@@ -53,15 +53,15 @@ clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o: clients/drca
 clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/tools/view.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o -c /home/hyeongjun/workspace/backup/clients/drcachesim/tools/view.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o -c /home/hyeongjun/workspace/backup/clients/drcachesim/tools/view.cpp
 
 clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drmemtrace_view.dir/tools/view.cpp.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/backup/clients/drcachesim/tools/view.cpp > CMakeFiles/drmemtrace_view.dir/tools/view.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/backup/clients/drcachesim/tools/view.cpp > CMakeFiles/drmemtrace_view.dir/tools/view.cpp.i
 
 clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drmemtrace_view.dir/tools/view.cpp.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/backup/clients/drcachesim/tools/view.cpp -o CMakeFiles/drmemtrace_view.dir/tools/view.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/backup/clients/drcachesim/tools/view.cpp -o CMakeFiles/drmemtrace_view.dir/tools/view.cpp.s
 
 clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o.requires
@@ -79,15 +79,15 @@ drmemtrace_view_OBJECTS = \
 # External object files for target drmemtrace_view
 drmemtrace_view_EXTERNAL_OBJECTS =
 
-clients/lib32/release/libdrmemtrace_view.a: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o
-clients/lib32/release/libdrmemtrace_view.a: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/build.make
-clients/lib32/release/libdrmemtrace_view.a: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library ../lib32/release/libdrmemtrace_view.a"
+clients/lib32/debug/libdrmemtrace_view.a: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o
+clients/lib32/debug/libdrmemtrace_view.a: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/build.make
+clients/lib32/debug/libdrmemtrace_view.a: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library ../lib32/debug/libdrmemtrace_view.a"
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && $(CMAKE_COMMAND) -P CMakeFiles/drmemtrace_view.dir/cmake_clean_target.cmake
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drmemtrace_view.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-clients/drcachesim/CMakeFiles/drmemtrace_view.dir/build: clients/lib32/release/libdrmemtrace_view.a
+clients/drcachesim/CMakeFiles/drmemtrace_view.dir/build: clients/lib32/debug/libdrmemtrace_view.a
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_view.dir/build
 
 clients/drcachesim/CMakeFiles/drmemtrace_view.dir/requires: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/tools/view.cpp.o.requires

@@ -76,15 +76,15 @@ clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.o -c /home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.o -c /home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.cpp
 
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.cpp > CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.cpp > CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.i
 
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.cpp -o CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -g3 -fno-omit-frame-pointer -fno-builtin-strcmp -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/backup/clients/drcachesim/tests/trace_invariants.cpp -o CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.s
 
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.o.requires
@@ -106,10 +106,10 @@ histogram_launcher_EXTERNAL_OBJECTS =
 clients/bin32/histogram_launcher: clients/drcachesim/CMakeFiles/histogram_launcher.dir/tools/histogram_launcher.cpp.o
 clients/bin32/histogram_launcher: clients/drcachesim/CMakeFiles/histogram_launcher.dir/tests/trace_invariants.cpp.o
 clients/bin32/histogram_launcher: clients/drcachesim/CMakeFiles/histogram_launcher.dir/build.make
-clients/bin32/histogram_launcher: clients/lib32/release/libdrmemtrace_analyzer.a
-clients/bin32/histogram_launcher: clients/lib32/release/libdrmemtrace_histogram.a
+clients/bin32/histogram_launcher: clients/lib32/debug/libdrmemtrace_analyzer.a
+clients/bin32/histogram_launcher: clients/lib32/debug/libdrmemtrace_histogram.a
 clients/bin32/histogram_launcher: lib32/libdrfrontendlib.a
-clients/bin32/histogram_launcher: clients/lib32/release/libdirectory_iterator.a
+clients/bin32/histogram_launcher: clients/lib32/debug/libdirectory_iterator.a
 clients/bin32/histogram_launcher: lib32/libdrfrontendlib.a
 clients/bin32/histogram_launcher: lib32/libdrlibc.a
 clients/bin32/histogram_launcher: /usr/arm-linux-gnueabihf/lib/libpthread.so

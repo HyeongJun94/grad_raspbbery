@@ -225,7 +225,7 @@ core/CMakeFiles/drpreload.dir/all: core/CMakeFiles/generate_syslog.dir/all
 core/CMakeFiles/drpreload.dir/all: core/CMakeFiles/drlibc.dir/all
 	$(MAKE) -f core/CMakeFiles/drpreload.dir/build.make core/CMakeFiles/drpreload.dir/depend
 	$(MAKE) -f core/CMakeFiles/drpreload.dir/build.make core/CMakeFiles/drpreload.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  36
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  36 37
 	@echo "Built target drpreload"
 .PHONY : core/CMakeFiles/drpreload.dir/all
 
@@ -235,7 +235,7 @@ all: core/CMakeFiles/drpreload.dir/all
 
 # Build rule for subdir invocation for target.
 core/CMakeFiles/drpreload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/drpreload.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : core/CMakeFiles/drpreload.dir/rule
@@ -380,8 +380,8 @@ libutil/preinstall:
 
 # All Build rule for target.
 libutil/CMakeFiles/drconfiglib.dir/all: core/CMakeFiles/generate_syslog.dir/all
-libutil/CMakeFiles/drconfiglib.dir/all: core/CMakeFiles/drlibc.dir/all
 libutil/CMakeFiles/drconfiglib.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
+libutil/CMakeFiles/drconfiglib.dir/all: core/CMakeFiles/drlibc.dir/all
 	$(MAKE) -f libutil/CMakeFiles/drconfiglib.dir/build.make libutil/CMakeFiles/drconfiglib.dir/depend
 	$(MAKE) -f libutil/CMakeFiles/drconfiglib.dir/build.make libutil/CMakeFiles/drconfiglib.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  7
@@ -394,7 +394,7 @@ all: libutil/CMakeFiles/drconfiglib.dir/all
 
 # Build rule for subdir invocation for target.
 libutil/CMakeFiles/drconfiglib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 libutil/CMakeFiles/drconfiglib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : libutil/CMakeFiles/drconfiglib.dir/rule
@@ -419,7 +419,7 @@ clean: libutil/CMakeFiles/drconfiglib.dir/clean
 libutil/CMakeFiles/drfrontendlib.dir/all: core/CMakeFiles/drlibc.dir/all
 	$(MAKE) -f libutil/CMakeFiles/drfrontendlib.dir/build.make libutil/CMakeFiles/drfrontendlib.dir/depend
 	$(MAKE) -f libutil/CMakeFiles/drfrontendlib.dir/build.make libutil/CMakeFiles/drfrontendlib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  18
 	@echo "Built target drfrontendlib"
 .PHONY : libutil/CMakeFiles/drfrontendlib.dir/all
 
@@ -429,7 +429,7 @@ all: libutil/CMakeFiles/drfrontendlib.dir/all
 
 # Build rule for subdir invocation for target.
 libutil/CMakeFiles/drfrontendlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 libutil/CMakeFiles/drfrontendlib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : libutil/CMakeFiles/drfrontendlib.dir/rule
@@ -478,12 +478,12 @@ tools/preinstall:
 # Target rules for target tools/CMakeFiles/drconfig.dir
 
 # All Build rule for target.
+tools/CMakeFiles/drconfig.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 tools/CMakeFiles/drconfig.dir/all: libutil/CMakeFiles/drconfiglib.dir/all
 tools/CMakeFiles/drconfig.dir/all: core/CMakeFiles/drlibc.dir/all
-tools/CMakeFiles/drconfig.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 	$(MAKE) -f tools/CMakeFiles/drconfig.dir/build.make tools/CMakeFiles/drconfig.dir/depend
 	$(MAKE) -f tools/CMakeFiles/drconfig.dir/build.make tools/CMakeFiles/drconfig.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
 	@echo "Built target drconfig"
 .PHONY : tools/CMakeFiles/drconfig.dir/all
 
@@ -515,14 +515,14 @@ clean: tools/CMakeFiles/drconfig.dir/clean
 # Target rules for target tools/CMakeFiles/drinject.dir
 
 # All Build rule for target.
+tools/CMakeFiles/drinject.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 tools/CMakeFiles/drinject.dir/all: libutil/CMakeFiles/drconfiglib.dir/all
 tools/CMakeFiles/drinject.dir/all: core/CMakeFiles/drlibc.dir/all
 tools/CMakeFiles/drinject.dir/all: core/CMakeFiles/drinjectlib.dir/all
 tools/CMakeFiles/drinject.dir/all: core/CMakeFiles/drdecode.dir/all
-tools/CMakeFiles/drinject.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 	$(MAKE) -f tools/CMakeFiles/drinject.dir/build.make tools/CMakeFiles/drinject.dir/depend
 	$(MAKE) -f tools/CMakeFiles/drinject.dir/build.make tools/CMakeFiles/drinject.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  18
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
 	@echo "Built target drinject"
 .PHONY : tools/CMakeFiles/drinject.dir/all
 
@@ -589,11 +589,11 @@ clean: tools/CMakeFiles/drloader.dir/clean
 # Target rules for target tools/CMakeFiles/drrun.dir
 
 # All Build rule for target.
+tools/CMakeFiles/drrun.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 tools/CMakeFiles/drrun.dir/all: libutil/CMakeFiles/drconfiglib.dir/all
 tools/CMakeFiles/drrun.dir/all: core/CMakeFiles/drlibc.dir/all
 tools/CMakeFiles/drrun.dir/all: core/CMakeFiles/drinjectlib.dir/all
 tools/CMakeFiles/drrun.dir/all: core/CMakeFiles/drdecode.dir/all
-tools/CMakeFiles/drrun.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 	$(MAKE) -f tools/CMakeFiles/drrun.dir/build.make tools/CMakeFiles/drrun.dir/depend
 	$(MAKE) -f tools/CMakeFiles/drrun.dir/build.make tools/CMakeFiles/drrun.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -606,7 +606,7 @@ all: tools/CMakeFiles/drrun.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/drrun.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/drrun.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : tools/CMakeFiles/drrun.dir/rule
@@ -792,14 +792,14 @@ clients/drcov/preinstall:
 # All Build rule for target.
 clients/drcov/CMakeFiles/drcov.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcov/CMakeFiles/drcov.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcov/CMakeFiles/drcov.dir/all: ext/drx/CMakeFiles/drx.dir/all
 clients/drcov/CMakeFiles/drcov.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-clients/drcov/CMakeFiles/drcov.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+clients/drcov/CMakeFiles/drcov.dir/all: ext/drx/CMakeFiles/drx.dir/all
 clients/drcov/CMakeFiles/drcov.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+clients/drcov/CMakeFiles/drcov.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 clients/drcov/CMakeFiles/drcov.dir/all: ext/drcovlib/CMakeFiles/drcovlib.dir/all
 	$(MAKE) -f clients/drcov/CMakeFiles/drcov.dir/build.make clients/drcov/CMakeFiles/drcov.dir/depend
 	$(MAKE) -f clients/drcov/CMakeFiles/drcov.dir/build.make clients/drcov/CMakeFiles/drcov.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
 	@echo "Built target drcov"
 .PHONY : clients/drcov/CMakeFiles/drcov.dir/all
 
@@ -809,7 +809,7 @@ all: clients/drcov/CMakeFiles/drcov.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcov/CMakeFiles/drcov.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 33
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcov/CMakeFiles/drcov.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcov/CMakeFiles/drcov.dir/rule
@@ -831,15 +831,15 @@ clean: clients/drcov/CMakeFiles/drcov.dir/clean
 # Target rules for target clients/drcov/CMakeFiles/drcov2lcov.dir
 
 # All Build rule for target.
+clients/drcov/CMakeFiles/drcov2lcov.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcov/CMakeFiles/drcov2lcov.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
-clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
-clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drsyms/CMakeFiles/drsyms_static.dir/all
+clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
 	$(MAKE) -f clients/drcov/CMakeFiles/drcov2lcov.dir/build.make clients/drcov/CMakeFiles/drcov2lcov.dir/depend
 	$(MAKE) -f clients/drcov/CMakeFiles/drcov2lcov.dir/build.make clients/drcov/CMakeFiles/drcov2lcov.dir/build
@@ -853,7 +853,7 @@ all: clients/drcov/CMakeFiles/drcov2lcov.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcov/CMakeFiles/drcov2lcov.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcov/CMakeFiles/drcov2lcov.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcov/CMakeFiles/drcov2lcov.dir/rule
@@ -884,7 +884,7 @@ clients/drcov/CMakeFiles/drcov_docs.dir/all: clients/drcov/CMakeFiles/drcov2lcov
 
 # Build rule for subdir invocation for target.
 clients/drcov/CMakeFiles/drcov_docs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcov/CMakeFiles/drcov_docs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcov/CMakeFiles/drcov_docs.dir/rule
@@ -954,9 +954,9 @@ clients/drcachesim/preinstall:
 # Target rules for target clients/drcachesim/CMakeFiles/directory_iterator.dir
 
 # All Build rule for target.
+clients/drcachesim/CMakeFiles/directory_iterator.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/directory_iterator.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/directory_iterator.dir/all: core/CMakeFiles/drlibc.dir/all
-clients/drcachesim/CMakeFiles/directory_iterator.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/directory_iterator.dir/build.make clients/drcachesim/CMakeFiles/directory_iterator.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/directory_iterator.dir/build.make clients/drcachesim/CMakeFiles/directory_iterator.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -969,7 +969,7 @@ all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/directory_iterator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/directory_iterator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/directory_iterator.dir/rule
@@ -991,25 +991,25 @@ clean: clients/drcachesim/CMakeFiles/directory_iterator.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/drcachesim.dir
 
 # All Build rule for target.
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: libutil/CMakeFiles/drconfiglib.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: CMakeFiles/api_headers.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drlibc.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drinjectlib.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drdecode.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: CMakeFiles/api_headers.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: libutil/CMakeFiles/drconfiglib.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drlibc.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/dynamorio.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drinjectlib.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drdecode.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_reuse_distance.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_basic_counts.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drutil/CMakeFiles/drutil_static.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
@@ -1025,7 +1025,7 @@ all: clients/drcachesim/CMakeFiles/drcachesim.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drcachesim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drcachesim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim.dir/rule
@@ -1056,7 +1056,7 @@ clients/drcachesim/CMakeFiles/drcachesim_docs.dir/all: clients/drcachesim/CMakeF
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drcachesim_docs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drcachesim_docs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim_docs.dir/rule
@@ -1081,7 +1081,7 @@ clean: clients/drcachesim/CMakeFiles/drcachesim_docs.dir/clean
 clients/drcachesim/CMakeFiles/drcachesim_ops.dir/all:
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drcachesim_ops.dir/build.make clients/drcachesim/CMakeFiles/drcachesim_ops.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drcachesim_ops.dir/build.make clients/drcachesim/CMakeFiles/drcachesim_ops.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  6
 	@echo "Built target drcachesim_ops"
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim_ops.dir/all
 
@@ -1091,7 +1091,7 @@ all: clients/drcachesim/CMakeFiles/drcachesim_ops.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drcachesim_ops.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drcachesim_ops.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drcachesim_ops.dir/rule
@@ -1115,17 +1115,17 @@ clean: clients/drcachesim/CMakeFiles/drcachesim_ops.dir/clean
 # All Build rule for target.
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drx/CMakeFiles/drx.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drx/CMakeFiles/drx.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drwrap/CMakeFiles/drwrap.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drutil/CMakeFiles/drutil.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drsyms/CMakeFiles/drsyms.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drutil/CMakeFiles/drutil.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drcovlib/CMakeFiles/drcovlib.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  23 24
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  23 24 25
 	@echo "Built target drmemtrace"
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace.dir/all
 
@@ -1135,7 +1135,7 @@ all: clients/drcachesim/CMakeFiles/drmemtrace.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drmemtrace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drmemtrace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace.dir/rule
@@ -1157,12 +1157,12 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir
 
 # All Build rule for target.
-clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  25 26
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  26
 	@echo "Built target drmemtrace_analyzer"
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all
 
@@ -1232,7 +1232,7 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_basic_counts.dir/clean
 clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/all:
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  27
 	@echo "Built target drmemtrace_histogram"
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/all
 
@@ -1242,7 +1242,7 @@ all: clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/rule
@@ -1267,7 +1267,7 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/clean
 clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/all: core/CMakeFiles/dynamorio.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  27
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
 	@echo "Built target drmemtrace_opcode_mix"
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/all
 
@@ -1277,7 +1277,7 @@ all: clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/rule
@@ -1299,9 +1299,9 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir
 
 # All Build rule for target.
+clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: ext/drutil/CMakeFiles/drutil_static.dir/all
@@ -1317,7 +1317,7 @@ all: clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/rule
@@ -1377,7 +1377,7 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_reuse_distance.dir/clean
 clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/all:
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  29
 	@echo "Built target drmemtrace_reuse_time"
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/all
 
@@ -1387,7 +1387,7 @@ all: clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/rule
@@ -1412,7 +1412,7 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/clean
 clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/all:
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  29 30 31 32
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  30 31 32
 	@echo "Built target drmemtrace_simulator"
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/all
 
@@ -1422,7 +1422,7 @@ all: clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/rule
@@ -1446,17 +1446,17 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/clean
 # All Build rule for target.
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drwrap/CMakeFiles/drwrap_static.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drsyms/CMakeFiles/drsyms_static.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drutil/CMakeFiles/drutil_static.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_static.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_static.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_static.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_static.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  33 34
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  33 34 35
 	@echo "Built target drmemtrace_static"
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all
 
@@ -1466,7 +1466,7 @@ all: clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_static.dir/rule
@@ -1491,7 +1491,7 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_static.dir/clean
 clients/drcachesim/CMakeFiles/drmemtrace_view.dir/all: core/CMakeFiles/dynamorio.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_view.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_view.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_view.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_view.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  35
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
 	@echo "Built target drmemtrace_view"
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_view.dir/all
 
@@ -1501,7 +1501,7 @@ all: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drmemtrace_view.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drmemtrace_view.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_view.dir/rule
@@ -1523,12 +1523,12 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/drraw2trace.dir
 
 # All Build rule for target.
+clients/drcachesim/CMakeFiles/drraw2trace.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: core/CMakeFiles/dynamorio.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: core/CMakeFiles/drdecode.dir/all
-clients/drcachesim/CMakeFiles/drraw2trace.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
-clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
@@ -1537,7 +1537,7 @@ clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drutil/CMakeFiles/drutil_
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drraw2trace.dir/build.make clients/drcachesim/CMakeFiles/drraw2trace.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drraw2trace.dir/build.make clients/drcachesim/CMakeFiles/drraw2trace.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  37
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
 	@echo "Built target drraw2trace"
 .PHONY : clients/drcachesim/CMakeFiles/drraw2trace.dir/all
 
@@ -1547,7 +1547,7 @@ all: clients/drcachesim/CMakeFiles/drraw2trace.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/drraw2trace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/drraw2trace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/drraw2trace.dir/rule
@@ -1569,12 +1569,12 @@ clean: clients/drcachesim/CMakeFiles/drraw2trace.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/histogram_launcher.dir
 
 # All Build rule for target.
+clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: core/CMakeFiles/drlibc.dir/all
-clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/all
-clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
+clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/histogram_launcher.dir/build.make clients/drcachesim/CMakeFiles/histogram_launcher.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/histogram_launcher.dir/build.make clients/drcachesim/CMakeFiles/histogram_launcher.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -1587,7 +1587,7 @@ all: clients/drcachesim/CMakeFiles/histogram_launcher.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcachesim/CMakeFiles/histogram_launcher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcachesim/CMakeFiles/histogram_launcher.dir/rule
@@ -1609,18 +1609,18 @@ clean: clients/drcachesim/CMakeFiles/histogram_launcher.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir
 
 # All Build rule for target.
+clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: core/CMakeFiles/dynamorio.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: core/CMakeFiles/dynamorio_static.dir/all
-clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
-clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/all
-clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
+clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drutil/CMakeFiles/drutil_static.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
@@ -1678,14 +1678,14 @@ clients/drcpusim/preinstall:
 # All Build rule for target.
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drx/CMakeFiles/drx.dir/all
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drx/CMakeFiles/drx.dir/all
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drutil/CMakeFiles/drutil.dir/all
 	$(MAKE) -f clients/drcpusim/CMakeFiles/drcpusim.dir/build.make clients/drcpusim/CMakeFiles/drcpusim.dir/depend
 	$(MAKE) -f clients/drcpusim/CMakeFiles/drcpusim.dir/build.make clients/drcpusim/CMakeFiles/drcpusim.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
 	@echo "Built target drcpusim"
 .PHONY : clients/drcpusim/CMakeFiles/drcpusim.dir/all
 
@@ -1695,7 +1695,7 @@ all: clients/drcpusim/CMakeFiles/drcpusim.dir/all
 
 # Build rule for subdir invocation for target.
 clients/drcpusim/CMakeFiles/drcpusim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 clients/drcpusim/CMakeFiles/drcpusim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : clients/drcpusim/CMakeFiles/drcpusim.dir/rule
@@ -1841,7 +1841,7 @@ ext/drcontainers/CMakeFiles/drcontainers.dir/all: CMakeFiles/api_headers.dir/all
 ext/drcontainers/CMakeFiles/drcontainers.dir/all: core/CMakeFiles/dynamorio.dir/all
 	$(MAKE) -f ext/drcontainers/CMakeFiles/drcontainers.dir/build.make ext/drcontainers/CMakeFiles/drcontainers.dir/depend
 	$(MAKE) -f ext/drcontainers/CMakeFiles/drcontainers.dir/build.make ext/drcontainers/CMakeFiles/drcontainers.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  8
 	@echo "Built target drcontainers"
 .PHONY : ext/drcontainers/CMakeFiles/drcontainers.dir/all
 
@@ -1851,7 +1851,7 @@ all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drcontainers/CMakeFiles/drcontainers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drcontainers/CMakeFiles/drcontainers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drcontainers/CMakeFiles/drcontainers.dir/rule
@@ -1982,8 +1982,8 @@ ext/drx/preinstall:
 ext/drx/CMakeFiles/drx.dir/all: CMakeFiles/api_headers.dir/all
 ext/drx/CMakeFiles/drx.dir/all: core/CMakeFiles/dynamorio.dir/all
 ext/drx/CMakeFiles/drx.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-ext/drx/CMakeFiles/drx.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 ext/drx/CMakeFiles/drx.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+ext/drx/CMakeFiles/drx.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f ext/drx/CMakeFiles/drx.dir/build.make ext/drx/CMakeFiles/drx.dir/depend
 	$(MAKE) -f ext/drx/CMakeFiles/drx.dir/build.make ext/drx/CMakeFiles/drx.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  44
@@ -1996,7 +1996,7 @@ all: ext/drx/CMakeFiles/drx.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drx/CMakeFiles/drx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drx/CMakeFiles/drx.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drx/CMakeFiles/drx.dir/rule
@@ -2020,8 +2020,8 @@ clean: ext/drx/CMakeFiles/drx.dir/clean
 # All Build rule for target.
 ext/drx/CMakeFiles/drx_static.dir/all: CMakeFiles/api_headers.dir/all
 ext/drx/CMakeFiles/drx_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drx/CMakeFiles/drx_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 ext/drx/CMakeFiles/drx_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+ext/drx/CMakeFiles/drx_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 ext/drx/CMakeFiles/drx_static.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 	$(MAKE) -f ext/drx/CMakeFiles/drx_static.dir/build.make ext/drx/CMakeFiles/drx_static.dir/depend
 	$(MAKE) -f ext/drx/CMakeFiles/drx_static.dir/build.make ext/drx/CMakeFiles/drx_static.dir/build
@@ -2090,7 +2090,7 @@ all: ext/drwrap/CMakeFiles/drwrap.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drwrap/CMakeFiles/drwrap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drwrap/CMakeFiles/drwrap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drwrap/CMakeFiles/drwrap.dir/rule
@@ -2114,8 +2114,8 @@ clean: ext/drwrap/CMakeFiles/drwrap.dir/clean
 # All Build rule for target.
 ext/drwrap/CMakeFiles/drwrap_static.dir/all: CMakeFiles/api_headers.dir/all
 ext/drwrap/CMakeFiles/drwrap_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drwrap/CMakeFiles/drwrap_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 ext/drwrap/CMakeFiles/drwrap_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+ext/drwrap/CMakeFiles/drwrap_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 	$(MAKE) -f ext/drwrap/CMakeFiles/drwrap_static.dir/build.make ext/drwrap/CMakeFiles/drwrap_static.dir/depend
 	$(MAKE) -f ext/drwrap/CMakeFiles/drwrap_static.dir/build.make ext/drwrap/CMakeFiles/drwrap_static.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -2128,7 +2128,7 @@ all: ext/drwrap/CMakeFiles/drwrap_static.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drwrap/CMakeFiles/drwrap_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drwrap/CMakeFiles/drwrap_static.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drwrap/CMakeFiles/drwrap_static.dir/rule
@@ -2173,7 +2173,7 @@ ext/drreg/CMakeFiles/drreg.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir
 ext/drreg/CMakeFiles/drreg.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f ext/drreg/CMakeFiles/drreg.dir/build.make ext/drreg/CMakeFiles/drreg.dir/depend
 	$(MAKE) -f ext/drreg/CMakeFiles/drreg.dir/build.make ext/drreg/CMakeFiles/drreg.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  38
 	@echo "Built target drreg"
 .PHONY : ext/drreg/CMakeFiles/drreg.dir/all
 
@@ -2183,7 +2183,7 @@ all: ext/drreg/CMakeFiles/drreg.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drreg/CMakeFiles/drreg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drreg/CMakeFiles/drreg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drreg/CMakeFiles/drreg.dir/rule
@@ -2207,11 +2207,11 @@ clean: ext/drreg/CMakeFiles/drreg.dir/clean
 # All Build rule for target.
 ext/drreg/CMakeFiles/drreg_static.dir/all: CMakeFiles/api_headers.dir/all
 ext/drreg/CMakeFiles/drreg_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drreg/CMakeFiles/drreg_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 ext/drreg/CMakeFiles/drreg_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+ext/drreg/CMakeFiles/drreg_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 	$(MAKE) -f ext/drreg/CMakeFiles/drreg_static.dir/build.make ext/drreg/CMakeFiles/drreg_static.dir/depend
 	$(MAKE) -f ext/drreg/CMakeFiles/drreg_static.dir/build.make ext/drreg/CMakeFiles/drreg_static.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  38
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
 	@echo "Built target drreg_static"
 .PHONY : ext/drreg/CMakeFiles/drreg_static.dir/all
 
@@ -2277,7 +2277,7 @@ all: ext/drsyms/CMakeFiles/drsyms.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drsyms/CMakeFiles/drsyms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drsyms/CMakeFiles/drsyms.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drsyms/CMakeFiles/drsyms.dir/rule
@@ -2313,7 +2313,7 @@ all: ext/drsyms/CMakeFiles/drsyms_bench.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drsyms/CMakeFiles/drsyms_bench.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drsyms/CMakeFiles/drsyms_bench.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drsyms/CMakeFiles/drsyms_bench.dir/rule
@@ -2350,7 +2350,7 @@ all: ext/drsyms/CMakeFiles/drsyms_static.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drsyms/CMakeFiles/drsyms_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drsyms/CMakeFiles/drsyms_static.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drsyms/CMakeFiles/drsyms_static.dir/rule
@@ -2497,10 +2497,10 @@ ext/drcovlib/preinstall:
 # All Build rule for target.
 ext/drcovlib/CMakeFiles/drcovlib.dir/all: CMakeFiles/api_headers.dir/all
 ext/drcovlib/CMakeFiles/drcovlib.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drx/CMakeFiles/drx.dir/all
 ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drx/CMakeFiles/drx.dir/all
 ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f ext/drcovlib/CMakeFiles/drcovlib.dir/build.make ext/drcovlib/CMakeFiles/drcovlib.dir/depend
 	$(MAKE) -f ext/drcovlib/CMakeFiles/drcovlib.dir/build.make ext/drcovlib/CMakeFiles/drcovlib.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  9
@@ -2513,7 +2513,7 @@ all: ext/drcovlib/CMakeFiles/drcovlib.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drcovlib/CMakeFiles/drcovlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 33
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drcovlib/CMakeFiles/drcovlib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drcovlib/CMakeFiles/drcovlib.dir/rule
@@ -2537,13 +2537,13 @@ clean: ext/drcovlib/CMakeFiles/drcovlib.dir/clean
 # All Build rule for target.
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: CMakeFiles/api_headers.dir/all
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 	$(MAKE) -f ext/drcovlib/CMakeFiles/drcovlib_static.dir/build.make ext/drcovlib/CMakeFiles/drcovlib_static.dir/depend
 	$(MAKE) -f ext/drcovlib/CMakeFiles/drcovlib_static.dir/build.make ext/drcovlib/CMakeFiles/drcovlib_static.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  10
 	@echo "Built target drcovlib_static"
 .PHONY : ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
 
@@ -2553,7 +2553,7 @@ all: ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
 
 # Build rule for subdir invocation for target.
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : ext/drcovlib/CMakeFiles/drcovlib_static.dir/rule
@@ -2624,10 +2624,10 @@ api/samples/preinstall:
 # All Build rule for target.
 api/samples/CMakeFiles/bbbuf.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/bbbuf.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/bbbuf.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/bbbuf.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-api/samples/CMakeFiles/bbbuf.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+api/samples/CMakeFiles/bbbuf.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/bbbuf.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+api/samples/CMakeFiles/bbbuf.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/bbbuf.dir/build.make api/samples/CMakeFiles/bbbuf.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/bbbuf.dir/build.make api/samples/CMakeFiles/bbbuf.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -2640,7 +2640,7 @@ all: api/samples/CMakeFiles/bbbuf.dir/all
 
 # Build rule for subdir invocation for target.
 api/samples/CMakeFiles/bbbuf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 api/samples/CMakeFiles/bbbuf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : api/samples/CMakeFiles/bbbuf.dir/rule
@@ -2664,10 +2664,10 @@ clean: api/samples/CMakeFiles/bbbuf.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/bbcount.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/bbcount.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/bbcount.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/bbcount.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-api/samples/CMakeFiles/bbcount.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+api/samples/CMakeFiles/bbcount.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/bbcount.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+api/samples/CMakeFiles/bbcount.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/bbcount.dir/build.make api/samples/CMakeFiles/bbcount.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/bbcount.dir/build.make api/samples/CMakeFiles/bbcount.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -2680,7 +2680,7 @@ all: api/samples/CMakeFiles/bbcount.dir/all
 
 # Build rule for subdir invocation for target.
 api/samples/CMakeFiles/bbcount.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 api/samples/CMakeFiles/bbcount.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : api/samples/CMakeFiles/bbcount.dir/rule
@@ -2828,7 +2828,7 @@ all: api/samples/CMakeFiles/inline.dir/all
 
 # Build rule for subdir invocation for target.
 api/samples/CMakeFiles/inline.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 api/samples/CMakeFiles/inline.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : api/samples/CMakeFiles/inline.dir/rule
@@ -2889,10 +2889,10 @@ clean: api/samples/CMakeFiles/inscount.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/instrace_simple.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/instrace_simple.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/instrace_simple.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/instrace_simple.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-api/samples/CMakeFiles/instrace_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+api/samples/CMakeFiles/instrace_simple.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/instrace_simple.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+api/samples/CMakeFiles/instrace_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/instrace_simple.dir/build.make api/samples/CMakeFiles/instrace_simple.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/instrace_simple.dir/build.make api/samples/CMakeFiles/instrace_simple.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -2905,7 +2905,7 @@ all: api/samples/CMakeFiles/instrace_simple.dir/all
 
 # Build rule for subdir invocation for target.
 api/samples/CMakeFiles/instrace_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 api/samples/CMakeFiles/instrace_simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : api/samples/CMakeFiles/instrace_simple.dir/rule
@@ -2929,10 +2929,10 @@ clean: api/samples/CMakeFiles/instrace_simple.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/memtrace_simple.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/memtrace_simple.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drutil/CMakeFiles/drutil.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/memtrace_simple.dir/build.make api/samples/CMakeFiles/memtrace_simple.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/memtrace_simple.dir/build.make api/samples/CMakeFiles/memtrace_simple.dir/build
@@ -2946,7 +2946,7 @@ all: api/samples/CMakeFiles/memtrace_simple.dir/all
 
 # Build rule for subdir invocation for target.
 api/samples/CMakeFiles/memtrace_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 33
 	$(MAKE) -f CMakeFiles/Makefile2 api/samples/CMakeFiles/memtrace_simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : api/samples/CMakeFiles/memtrace_simple.dir/rule
@@ -2970,10 +2970,10 @@ clean: api/samples/CMakeFiles/memtrace_simple.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/memval_simple.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/memval_simple.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/memval_simple.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/memval_simple.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-api/samples/CMakeFiles/memval_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+api/samples/CMakeFiles/memval_simple.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/memval_simple.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+api/samples/CMakeFiles/memval_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/memval_simple.dir/all: ext/drutil/CMakeFiles/drutil.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/memval_simple.dir/build.make api/samples/CMakeFiles/memval_simple.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/memval_simple.dir/build.make api/samples/CMakeFiles/memval_simple.dir/build
@@ -2987,7 +2987,7 @@ all: api/samples/CMakeFiles/memval_simple.dir/all
 
 # Build rule for subdir invocation for target.
 api/samples/CMakeFiles/memval_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 api/samples/CMakeFiles/memval_simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : api/samples/CMakeFiles/memval_simple.dir/rule
@@ -3026,7 +3026,7 @@ all: api/samples/CMakeFiles/myclient.dir/all
 
 # Build rule for subdir invocation for target.
 api/samples/CMakeFiles/myclient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 api/samples/CMakeFiles/myclient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : api/samples/CMakeFiles/myclient.dir/rule
@@ -3050,10 +3050,10 @@ clean: api/samples/CMakeFiles/myclient.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/opcodes.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/opcodes.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/opcodes.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/opcodes.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-api/samples/CMakeFiles/opcodes.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+api/samples/CMakeFiles/opcodes.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/opcodes.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
+api/samples/CMakeFiles/opcodes.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/opcodes.dir/build.make api/samples/CMakeFiles/opcodes.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/opcodes.dir/build.make api/samples/CMakeFiles/opcodes.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  98
@@ -3066,7 +3066,7 @@ all: api/samples/CMakeFiles/opcodes.dir/all
 
 # Build rule for subdir invocation for target.
 api/samples/CMakeFiles/opcodes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 33
 	$(MAKE) -f CMakeFiles/Makefile2 api/samples/CMakeFiles/opcodes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : api/samples/CMakeFiles/opcodes.dir/rule
@@ -3251,7 +3251,7 @@ all: api/samples/CMakeFiles/wrap.dir/all
 
 # Build rule for subdir invocation for target.
 api/samples/CMakeFiles/wrap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 api/samples/CMakeFiles/wrap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 0
 .PHONY : api/samples/CMakeFiles/wrap.dir/rule

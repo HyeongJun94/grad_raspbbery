@@ -40,8 +40,8 @@
 #define _CONFIGURE_H_ 1
 
 /* exposed options */
-/* #undef INTERNAL */
-/* #undef DEBUG */
+#define INTERNAL
+#define DEBUG
 #define DRSTATS_DEMO
 
 /* target */
