@@ -1,8 +1,8 @@
-# Install script for directory: /home/hyeongjun/workspace/dynamorio/ext/drsyms
+# Install script for directory: /home/hyeongjun/workspace/backup/ext/drsyms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/dynamorio/exports")
+  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/backup/exports")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -54,13 +54,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ext/lib32/release" TYPE FILE FILES
-    "/home/hyeongjun/workspace/dynamorio/ext/drsyms/libelftc-arm/lib32-eabihf/libdwarf.a"
-    "/home/hyeongjun/workspace/dynamorio/ext/drsyms/libelftc-arm/lib32-eabihf/libelf.a"
-    "/home/hyeongjun/workspace/dynamorio/ext/drsyms/libelftc-arm/lib32-eabihf/libelftc.a"
+    "/home/hyeongjun/workspace/backup/ext/drsyms/libelftc-arm/lib32-eabihf/libdwarf.a"
+    "/home/hyeongjun/workspace/backup/ext/drsyms/libelftc-arm/lib32-eabihf/libelf.a"
+    "/home/hyeongjun/workspace/backup/ext/drsyms/libelftc-arm/lib32-eabihf/libelftc.a"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ext/include" TYPE FILE FILES "/home/hyeongjun/workspace/dynamorio/ext/drsyms/drsyms.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ext/include" TYPE FILE FILES "/home/hyeongjun/workspace/backup/ext/drsyms/drsyms.h")
 endif()
 

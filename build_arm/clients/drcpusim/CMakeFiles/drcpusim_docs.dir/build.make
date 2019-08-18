@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -47,12 +47,12 @@ include clients/drcpusim/CMakeFiles/drcpusim_docs.dir/progress.make
 
 clients/drcpusim/CMakeFiles/drcpusim_docs: clients/drcpusim/drcpusim.dox
 
-clients/drcpusim/drcpusim.dox: /home/hyeongjun/workspace/dynamorio/clients/drcpusim/drcpusim.dox.in
+clients/drcpusim/drcpusim.dox: /home/hyeongjun/workspace/backup/clients/drcpusim/drcpusim.dox.in
 clients/drcpusim/drcpusim.dox: clients/bin32/drcpusim_ops
-clients/drcpusim/drcpusim.dox: /home/hyeongjun/workspace/dynamorio/clients/drcpusim/options.h
+clients/drcpusim/drcpusim.dox: /home/hyeongjun/workspace/backup/clients/drcpusim/options.h
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating drcpusim.dox"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim && /usr/bin/cmake -D src=/home/hyeongjun/workspace/dynamorio/clients/drcpusim/drcpusim.dox.in -D dst=/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim/drcpusim.dox -D prog=/home/hyeongjun/workspace/raspberrypi/build_arm/clients/bin32/drcpusim_ops -P /home/hyeongjun/workspace/dynamorio/clients/drcpusim/../common/gendocs.cmake
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim && /usr/bin/cmake -D src=/home/hyeongjun/workspace/backup/clients/drcpusim/drcpusim.dox.in -D dst=/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim/drcpusim.dox -D prog=/home/hyeongjun/workspace/raspberrypi/build_arm/clients/bin32/drcpusim_ops -P /home/hyeongjun/workspace/backup/clients/drcpusim/../common/gendocs.cmake
 
 drcpusim_docs: clients/drcpusim/CMakeFiles/drcpusim_docs
 drcpusim_docs: clients/drcpusim/drcpusim.dox
@@ -68,6 +68,6 @@ clients/drcpusim/CMakeFiles/drcpusim_docs.dir/clean:
 .PHONY : clients/drcpusim/CMakeFiles/drcpusim_docs.dir/clean
 
 clients/drcpusim/CMakeFiles/drcpusim_docs.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/clients/drcpusim /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim/CMakeFiles/drcpusim_docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/clients/drcpusim /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcpusim/CMakeFiles/drcpusim_docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : clients/drcpusim/CMakeFiles/drcpusim_docs.dir/depend
 

@@ -5,11 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/hyeongjun/workspace/dynamorio/ext/drwrap/drwrap_asm_arm.asm" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap/CMakeFiles/drwrap.dir/drwrap_asm_arm.asm.o"
+  "/home/hyeongjun/workspace/backup/ext/drwrap/drwrap_asm_arm.asm" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap/CMakeFiles/drwrap.dir/drwrap_asm_arm.asm.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/ext/drwrap/drwrap.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap/CMakeFiles/drwrap.dir/drwrap.c.o"
+  "/home/hyeongjun/workspace/backup/ext/drwrap/drwrap.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drwrap/CMakeFiles/drwrap.dir/drwrap.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
   "cmake"
   "cmake/../include"
-  "/home/hyeongjun/workspace/dynamorio/ext/drwrap/ext/lib32/release"
+  "/home/hyeongjun/workspace/backup/ext/drwrap/ext/lib32/release"
   "ext/include"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

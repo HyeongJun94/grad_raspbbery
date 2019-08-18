@@ -17,10 +17,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
   "cmake/../include"
   "ext/include"
-  "/home/hyeongjun/workspace/dynamorio/clients/drcachesim/common"
-  "/home/hyeongjun/workspace/dynamorio/clients/drcachesim/reader"
-  "/home/hyeongjun/workspace/dynamorio/clients/drcachesim/tracer"
-  "/home/hyeongjun/workspace/dynamorio/clients/drcachesim"
+  "/home/hyeongjun/workspace/backup/clients/drcachesim/common"
+  "/home/hyeongjun/workspace/backup/clients/drcachesim/reader"
+  "/home/hyeongjun/workspace/backup/clients/drcachesim/tracer"
+  "/home/hyeongjun/workspace/backup/clients/drcachesim"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

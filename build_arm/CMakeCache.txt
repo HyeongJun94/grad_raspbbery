@@ -126,7 +126,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
 //install path
-CMAKE_INSTALL_PREFIX:PATH=/home/hyeongjun/workspace/dynamorio/exports
+CMAKE_INSTALL_PREFIX:PATH=/home/hyeongjun/workspace/backup/exports
 
 //linker
 CMAKE_LINKER:FILEPATH=/usr/bin/arm-linux-gnueabihf-ld
@@ -204,8 +204,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //strip
 CMAKE_STRIP:FILEPATH=/usr/bin/arm-linux-gnueabihf-strip
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=../../dynamorio/make/toolchain-arm32.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/hyeongjun/workspace/backup/make/toolchain-arm32.cmake
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
@@ -232,19 +232,19 @@ DRSTATS_DEMO:BOOL=ON
 DynamoRIO_BINARY_DIR:STATIC=/home/hyeongjun/workspace/raspberrypi/build_arm
 
 //Value Computed by CMake
-DynamoRIO_SOURCE_DIR:STATIC=/home/hyeongjun/workspace/dynamorio
+DynamoRIO_SOURCE_DIR:STATIC=/home/hyeongjun/workspace/backup
 
 //Value Computed by CMake
 DynamoRIO_samples_BINARY_DIR:STATIC=/home/hyeongjun/workspace/raspberrypi/build_arm/api/samples
 
 //Value Computed by CMake
-DynamoRIO_samples_SOURCE_DIR:STATIC=/home/hyeongjun/workspace/dynamorio/api/samples
+DynamoRIO_samples_SOURCE_DIR:STATIC=/home/hyeongjun/workspace/backup/api/samples
 
 //Value Computed by CMake
 DynamoRIO_standalone_BINARY_DIR:STATIC=/home/hyeongjun/workspace/raspberrypi/build_arm/clients/standalone
 
 //Value Computed by CMake
-DynamoRIO_standalone_SOURCE_DIR:STATIC=/home/hyeongjun/workspace/dynamorio/clients/standalone
+DynamoRIO_standalone_SOURCE_DIR:STATIC=/home/hyeongjun/workspace/backup/clients/standalone
 
 //Path to a program.
 GCC_FULL_PATH:FILEPATH=/usr/bin/arm-linux-gnueabihf-gcc
@@ -301,6 +301,9 @@ TEST_SUITE:BOOL=OFF
 
 //Unique build number
 UNIQUE_BUILD_NUMBER:STRING=0
+
+//Turn vera++ checks into error (default)
+VERA_ERROR:BOOL=ON
 
 //Version number: leave empty for default
 VERSION_NUMBER:STRING=
@@ -411,7 +414,7 @@ drreg_LIB_DEPENDS:STATIC=general;dynamorio;general;drcontainers;general;drmgr;
 drreg_static_LIB_DEPENDS:STATIC=general;dynamorio;general;drcontainers;general;drmgr_static;
 
 //Dependencies for the target
-drsyms_LIB_DEPENDS:STATIC=general;dynamorio;general;drcontainers;general;/home/hyeongjun/workspace/dynamorio/ext/drsyms/libelftc-arm/lib32-eabihf/libdwarf.a;general;/home/hyeongjun/workspace/dynamorio/ext/drsyms/libelftc-arm/lib32-eabihf/libelftc.a;general;/home/hyeongjun/workspace/dynamorio/ext/drsyms/libelftc-arm/lib32-eabihf/libelf.a;
+drsyms_LIB_DEPENDS:STATIC=general;dynamorio;general;drcontainers;general;/home/hyeongjun/workspace/backup/ext/drsyms/libelftc-arm/lib32-eabihf/libdwarf.a;general;/home/hyeongjun/workspace/backup/ext/drsyms/libelftc-arm/lib32-eabihf/libelftc.a;general;/home/hyeongjun/workspace/backup/ext/drsyms/libelftc-arm/lib32-eabihf/libelf.a;
 
 //Dependencies for the target
 drsyms_static_LIB_DEPENDS:STATIC=general;dynamorio;general;drcontainers;general;dwarf;general;elftc;general;elf;
@@ -468,7 +471,7 @@ memtrace_simple_LIB_DEPENDS:STATIC=general;dynamorio;general;drmgr;general;drreg
 memval_simple_LIB_DEPENDS:STATIC=general;dynamorio;general;drmgr;general;drreg;general;drutil;general;drx;
 
 //Dependencies for the target
-myclient_LIB_DEPENDS:STATIC=general;dynamorio;general;drwrap;general;drmgr;
+myclient_LIB_DEPENDS:STATIC=general;dynamorio;general;drwrap;general;drmgr;general;drsyms;
 
 //Dependencies for the target
 opcodes_LIB_DEPENDS:STATIC=general;dynamorio;general;drmgr;general;drreg;general;drx;
@@ -577,7 +580,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Start directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/hyeongjun/workspace/dynamorio
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/hyeongjun/workspace/backup
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -690,6 +693,8 @@ HAVE_DR__Bool_EXISTS:INTERNAL=TRUE
 HAVE_FVISIBILITY_HIDDEN:INTERNAL=1
 //Test HAVE_FVISIBILITY_INTERNAL
 HAVE_FVISIBILITY_INTERNAL:INTERNAL=1
+//Have include linux/rseq.h
+HAVE_RSEQ:INTERNAL=
 //Have include stddef.h
 HAVE_STDDEF_H:INTERNAL=1
 //Have include stdint.h

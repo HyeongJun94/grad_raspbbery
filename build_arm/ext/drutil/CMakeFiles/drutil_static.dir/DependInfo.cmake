@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/ext/drutil/drutil.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drutil/CMakeFiles/drutil_static.dir/drutil.c.o"
+  "/home/hyeongjun/workspace/backup/ext/drutil/drutil.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drutil/CMakeFiles/drutil_static.dir/drutil.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
   "cmake/../include"
-  "/home/hyeongjun/workspace/dynamorio/ext/drutil/ext/lib32/release"
+  "/home/hyeongjun/workspace/backup/ext/drutil/ext/lib32/release"
   "ext/include"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

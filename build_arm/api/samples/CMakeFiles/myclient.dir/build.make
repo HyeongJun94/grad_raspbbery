@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -50,18 +50,18 @@ include api/samples/CMakeFiles/myclient.dir/progress.make
 include api/samples/CMakeFiles/myclient.dir/flags.make
 
 api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o: api/samples/CMakeFiles/myclient.dir/flags.make
-api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o: /home/hyeongjun/workspace/dynamorio/api/samples/myclient_cxx.cpp
+api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o: /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -o CMakeFiles/myclient.dir/myclient_cxx.cpp.o -c /home/hyeongjun/workspace/dynamorio/api/samples/myclient_cxx.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -o CMakeFiles/myclient.dir/myclient_cxx.cpp.o -c /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp
 
 api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myclient.dir/myclient_cxx.cpp.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -E /home/hyeongjun/workspace/dynamorio/api/samples/myclient_cxx.cpp > CMakeFiles/myclient.dir/myclient_cxx.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -E /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp > CMakeFiles/myclient.dir/myclient_cxx.cpp.i
 
 api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myclient.dir/myclient_cxx.cpp.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -S /home/hyeongjun/workspace/dynamorio/api/samples/myclient_cxx.cpp -o CMakeFiles/myclient.dir/myclient_cxx.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -fno-stack-protector -S /home/hyeongjun/workspace/backup/api/samples/myclient_cxx.cpp -o CMakeFiles/myclient.dir/myclient_cxx.cpp.s
 
 api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o.requires:
 .PHONY : api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o.requires
@@ -83,6 +83,7 @@ api/bin/libmyclient.so: api/samples/CMakeFiles/myclient.dir/myclient_cxx.cpp.o
 api/bin/libmyclient.so: api/samples/CMakeFiles/myclient.dir/build.make
 api/bin/libmyclient.so: ext/lib32/release/libdrwrap.so
 api/bin/libmyclient.so: ext/lib32/release/libdrmgr.so
+api/bin/libmyclient.so: ext/lib32/release/libdrsyms.so
 api/bin/libmyclient.so: ext/lib32/release/libdrcontainers.a
 api/bin/libmyclient.so: lib32/release/libdynamorio.so
 api/bin/libmyclient.so: api/samples/CMakeFiles/myclient.dir/link.txt
@@ -101,6 +102,6 @@ api/samples/CMakeFiles/myclient.dir/clean:
 .PHONY : api/samples/CMakeFiles/myclient.dir/clean
 
 api/samples/CMakeFiles/myclient.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/CMakeFiles/myclient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/CMakeFiles/myclient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : api/samples/CMakeFiles/myclient.dir/depend
 

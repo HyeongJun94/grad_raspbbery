@@ -1,8 +1,8 @@
-# Install script for directory: /home/hyeongjun/workspace/dynamorio/ext
+# Install script for directory: /home/hyeongjun/workspace/backup/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/dynamorio/exports")
+  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/backup/exports")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -41,7 +41,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ext/include" TYPE FILE FILES "/home/hyeongjun/workspace/dynamorio/ext/drext.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ext/include" TYPE FILE FILES "/home/hyeongjun/workspace/backup/ext/drext.h")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

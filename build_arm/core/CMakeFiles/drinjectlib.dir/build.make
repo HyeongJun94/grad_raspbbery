@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -50,18 +50,18 @@ include core/CMakeFiles/drinjectlib.dir/progress.make
 include core/CMakeFiles/drinjectlib.dir/flags.make
 
 core/CMakeFiles/drinjectlib.dir/unix/injector.c.o: core/CMakeFiles/drinjectlib.dir/flags.make
-core/CMakeFiles/drinjectlib.dir/unix/injector.c.o: /home/hyeongjun/workspace/dynamorio/core/unix/injector.c
+core/CMakeFiles/drinjectlib.dir/unix/injector.c.o: /home/hyeongjun/workspace/backup/core/unix/injector.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object core/CMakeFiles/drinjectlib.dir/unix/injector.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/drinjectlib.dir/unix/injector.c.o   -c /home/hyeongjun/workspace/dynamorio/core/unix/injector.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/drinjectlib.dir/unix/injector.c.o   -c /home/hyeongjun/workspace/backup/core/unix/injector.c
 
 core/CMakeFiles/drinjectlib.dir/unix/injector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drinjectlib.dir/unix/injector.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/dynamorio/core/unix/injector.c > CMakeFiles/drinjectlib.dir/unix/injector.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/backup/core/unix/injector.c > CMakeFiles/drinjectlib.dir/unix/injector.c.i
 
 core/CMakeFiles/drinjectlib.dir/unix/injector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drinjectlib.dir/unix/injector.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/dynamorio/core/unix/injector.c -o CMakeFiles/drinjectlib.dir/unix/injector.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/backup/core/unix/injector.c -o CMakeFiles/drinjectlib.dir/unix/injector.c.s
 
 core/CMakeFiles/drinjectlib.dir/unix/injector.c.o.requires:
 .PHONY : core/CMakeFiles/drinjectlib.dir/unix/injector.c.o.requires
@@ -73,18 +73,18 @@ core/CMakeFiles/drinjectlib.dir/unix/injector.c.o.provides: core/CMakeFiles/drin
 core/CMakeFiles/drinjectlib.dir/unix/injector.c.o.provides.build: core/CMakeFiles/drinjectlib.dir/unix/injector.c.o
 
 core/CMakeFiles/drinjectlib.dir/config.c.o: core/CMakeFiles/drinjectlib.dir/flags.make
-core/CMakeFiles/drinjectlib.dir/config.c.o: /home/hyeongjun/workspace/dynamorio/core/config.c
+core/CMakeFiles/drinjectlib.dir/config.c.o: /home/hyeongjun/workspace/backup/core/config.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object core/CMakeFiles/drinjectlib.dir/config.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/drinjectlib.dir/config.c.o   -c /home/hyeongjun/workspace/dynamorio/core/config.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/drinjectlib.dir/config.c.o   -c /home/hyeongjun/workspace/backup/core/config.c
 
 core/CMakeFiles/drinjectlib.dir/config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drinjectlib.dir/config.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/dynamorio/core/config.c > CMakeFiles/drinjectlib.dir/config.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/backup/core/config.c > CMakeFiles/drinjectlib.dir/config.c.i
 
 core/CMakeFiles/drinjectlib.dir/config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drinjectlib.dir/config.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/dynamorio/core/config.c -o CMakeFiles/drinjectlib.dir/config.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/backup/core/config.c -o CMakeFiles/drinjectlib.dir/config.c.s
 
 core/CMakeFiles/drinjectlib.dir/config.c.o.requires:
 .PHONY : core/CMakeFiles/drinjectlib.dir/config.c.o.requires
@@ -96,18 +96,18 @@ core/CMakeFiles/drinjectlib.dir/config.c.o.provides: core/CMakeFiles/drinjectlib
 core/CMakeFiles/drinjectlib.dir/config.c.o.provides.build: core/CMakeFiles/drinjectlib.dir/config.c.o
 
 core/CMakeFiles/drinjectlib.dir/string.c.o: core/CMakeFiles/drinjectlib.dir/flags.make
-core/CMakeFiles/drinjectlib.dir/string.c.o: /home/hyeongjun/workspace/dynamorio/core/string.c
+core/CMakeFiles/drinjectlib.dir/string.c.o: /home/hyeongjun/workspace/backup/core/string.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object core/CMakeFiles/drinjectlib.dir/string.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/drinjectlib.dir/string.c.o   -c /home/hyeongjun/workspace/dynamorio/core/string.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/drinjectlib.dir/string.c.o   -c /home/hyeongjun/workspace/backup/core/string.c
 
 core/CMakeFiles/drinjectlib.dir/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drinjectlib.dir/string.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/dynamorio/core/string.c > CMakeFiles/drinjectlib.dir/string.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/backup/core/string.c > CMakeFiles/drinjectlib.dir/string.c.i
 
 core/CMakeFiles/drinjectlib.dir/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drinjectlib.dir/string.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/dynamorio/core/string.c -o CMakeFiles/drinjectlib.dir/string.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/backup/core/string.c -o CMakeFiles/drinjectlib.dir/string.c.s
 
 core/CMakeFiles/drinjectlib.dir/string.c.o.requires:
 .PHONY : core/CMakeFiles/drinjectlib.dir/string.c.o.requires
@@ -119,18 +119,18 @@ core/CMakeFiles/drinjectlib.dir/string.c.o.provides: core/CMakeFiles/drinjectlib
 core/CMakeFiles/drinjectlib.dir/string.c.o.provides.build: core/CMakeFiles/drinjectlib.dir/string.c.o
 
 core/CMakeFiles/drinjectlib.dir/io.c.o: core/CMakeFiles/drinjectlib.dir/flags.make
-core/CMakeFiles/drinjectlib.dir/io.c.o: /home/hyeongjun/workspace/dynamorio/core/io.c
+core/CMakeFiles/drinjectlib.dir/io.c.o: /home/hyeongjun/workspace/backup/core/io.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object core/CMakeFiles/drinjectlib.dir/io.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/drinjectlib.dir/io.c.o   -c /home/hyeongjun/workspace/dynamorio/core/io.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/drinjectlib.dir/io.c.o   -c /home/hyeongjun/workspace/backup/core/io.c
 
 core/CMakeFiles/drinjectlib.dir/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drinjectlib.dir/io.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/dynamorio/core/io.c > CMakeFiles/drinjectlib.dir/io.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/backup/core/io.c > CMakeFiles/drinjectlib.dir/io.c.i
 
 core/CMakeFiles/drinjectlib.dir/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drinjectlib.dir/io.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/dynamorio/core/io.c -o CMakeFiles/drinjectlib.dir/io.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/backup/core/io.c -o CMakeFiles/drinjectlib.dir/io.c.s
 
 core/CMakeFiles/drinjectlib.dir/io.c.o.requires:
 .PHONY : core/CMakeFiles/drinjectlib.dir/io.c.o.requires
@@ -176,6 +176,6 @@ core/CMakeFiles/drinjectlib.dir/clean:
 .PHONY : core/CMakeFiles/drinjectlib.dir/clean
 
 core/CMakeFiles/drinjectlib.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/core /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/core /home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drinjectlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/core /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/core /home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/drinjectlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : core/CMakeFiles/drinjectlib.dir/depend
 

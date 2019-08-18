@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/libutil/dr_frontend_common.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drfrontendlib.dir/dr_frontend_common.c.o"
-  "/home/hyeongjun/workspace/dynamorio/libutil/dr_frontend_unix.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drfrontendlib.dir/dr_frontend_unix.c.o"
+  "/home/hyeongjun/workspace/backup/libutil/dr_frontend_common.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drfrontendlib.dir/dr_frontend_common.c.o"
+  "/home/hyeongjun/workspace/backup/libutil/dr_frontend_unix.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/libutil/CMakeFiles/drfrontendlib.dir/dr_frontend_unix.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -21,12 +21,12 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/hyeongjun/workspace/dynamorio/core/unix"
+  "/home/hyeongjun/workspace/backup/core/unix"
   "."
-  "/home/hyeongjun/workspace/dynamorio/core/arch/arm"
-  "/home/hyeongjun/workspace/dynamorio/core/arch"
-  "/home/hyeongjun/workspace/dynamorio/core/win32"
-  "/home/hyeongjun/workspace/dynamorio/core/lib"
+  "/home/hyeongjun/workspace/backup/core/arch/arm"
+  "/home/hyeongjun/workspace/backup/core/arch"
+  "/home/hyeongjun/workspace/backup/core/win32"
+  "/home/hyeongjun/workspace/backup/core/lib"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

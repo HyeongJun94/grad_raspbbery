@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/arm-linux-gnueabihf-gcc
 # compile CXX with /usr/bin/arm-linux-gnueabihf-g++
-C_FLAGS =     -fPIC -I/home/hyeongjun/workspace/raspberrypi/build_arm -I/home/hyeongjun/workspace/raspberrypi/build_arm/cmake/../include -I/home/hyeongjun/workspace/dynamorio/ext/drsyms/ext/lib32/release -I/home/hyeongjun/workspace/raspberrypi/build_arm/ext/include -I/home/hyeongjun/workspace/dynamorio/ext/drsyms/libelftc/include     -DARM_32 -DLINUX -DUSE_VISIBILITY_ATTRIBUTES -fPIC -DDRSYM_HAVE_LIBELFTC -fno-exceptions
+C_FLAGS =     -fPIC -I/home/hyeongjun/workspace/raspberrypi/build_arm -I/home/hyeongjun/workspace/raspberrypi/build_arm/cmake/../include -I/home/hyeongjun/workspace/backup/ext/drsyms/ext/lib32/release -I/home/hyeongjun/workspace/raspberrypi/build_arm/ext/include -I/home/hyeongjun/workspace/backup/ext/drsyms/libelftc/include     -DARM_32 -DLINUX -DUSE_VISIBILITY_ATTRIBUTES -fPIC -DDRSYM_HAVE_LIBELFTC -fno-exceptions
 
 C_DEFINES = -Ddrsyms_EXPORTS
 
-CXX_FLAGS =     -fPIC -I/home/hyeongjun/workspace/raspberrypi/build_arm -I/home/hyeongjun/workspace/raspberrypi/build_arm/cmake/../include -I/home/hyeongjun/workspace/dynamorio/ext/drsyms/ext/lib32/release -I/home/hyeongjun/workspace/raspberrypi/build_arm/ext/include -I/home/hyeongjun/workspace/dynamorio/ext/drsyms/libelftc/include     -DARM_32 -DLINUX -DUSE_VISIBILITY_ATTRIBUTES -fPIC -DDRSYM_HAVE_LIBELFTC -fno-exceptions
+CXX_FLAGS =     -fPIC -I/home/hyeongjun/workspace/raspberrypi/build_arm -I/home/hyeongjun/workspace/raspberrypi/build_arm/cmake/../include -I/home/hyeongjun/workspace/backup/ext/drsyms/ext/lib32/release -I/home/hyeongjun/workspace/raspberrypi/build_arm/ext/include -I/home/hyeongjun/workspace/backup/ext/drsyms/libelftc/include     -DARM_32 -DLINUX -DUSE_VISIBILITY_ATTRIBUTES -fPIC -DDRSYM_HAVE_LIBELFTC -fno-exceptions
 
 CXX_DEFINES = -Ddrsyms_EXPORTS
 

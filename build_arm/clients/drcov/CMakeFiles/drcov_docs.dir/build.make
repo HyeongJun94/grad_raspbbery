@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -47,11 +47,11 @@ include clients/drcov/CMakeFiles/drcov_docs.dir/progress.make
 
 clients/drcov/CMakeFiles/drcov_docs: clients/drcov/drcov.dox
 
-clients/drcov/drcov.dox: /home/hyeongjun/workspace/dynamorio/clients/drcov/drcov.dox.in
+clients/drcov/drcov.dox: /home/hyeongjun/workspace/backup/clients/drcov/drcov.dox.in
 clients/drcov/drcov.dox: clients/bin32/drcov2lcov
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating drcov.dox"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/cmake -D src=/home/hyeongjun/workspace/dynamorio/clients/drcov/drcov.dox.in -D dst=/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov/drcov.dox -D prog=/home/hyeongjun/workspace/raspberrypi/build_arm/clients/bin32/drcov2lcov -D prog_arg=-help_html -P /home/hyeongjun/workspace/dynamorio/clients/drcov/../common/gendocs.cmake
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov && /usr/bin/cmake -D src=/home/hyeongjun/workspace/backup/clients/drcov/drcov.dox.in -D dst=/home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov/drcov.dox -D prog=/home/hyeongjun/workspace/raspberrypi/build_arm/clients/bin32/drcov2lcov -D prog_arg=-help_html -P /home/hyeongjun/workspace/backup/clients/drcov/../common/gendocs.cmake
 
 drcov_docs: clients/drcov/CMakeFiles/drcov_docs
 drcov_docs: clients/drcov/drcov.dox
@@ -67,6 +67,6 @@ clients/drcov/CMakeFiles/drcov_docs.dir/clean:
 .PHONY : clients/drcov/CMakeFiles/drcov_docs.dir/clean
 
 clients/drcov/CMakeFiles/drcov_docs.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/clients/drcov /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov/CMakeFiles/drcov_docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/clients/drcov /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcov/CMakeFiles/drcov_docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : clients/drcov/CMakeFiles/drcov_docs.dir/depend
 

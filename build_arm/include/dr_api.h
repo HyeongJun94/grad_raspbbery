@@ -112,13 +112,27 @@ dr_init(client_id_t id);
 /* Version checking */
 /* This equals major*100 + minor */
 /* clang-format off */
-DR_EXPORT LINK_ONCE int _USES_DR_VERSION_ = 790;
+DR_EXPORT LINK_ONCE int _USES_DR_VERSION_ = 791;
 #else
 /* We provide the version as a define but we don't want an actual symbol to avoid
  * problems when standalone-using libraries are combined with clients.
  */
-# define _USES_DR_VERSION_ 790
+# define _USES_DR_VERSION_ 791
 /* clang-format on */
+#endif
+
+/* AVX-512 client code detection. Compiling the client with AVX-512 will cause
+ * DynamoRIO to assume that AVX-512 code is in use when deploying DynamoRIO after
+ * the application has started.
+ */
+#ifndef DYNAMORIO_STANDALONE
+#    ifdef __AVX512F__
+DR_EXPORT LINK_ONCE bool _DR_CLIENT_AVX512_CODE_IN_USE_ = true;
+#    else
+DR_EXPORT LINK_ONCE bool _DR_CLIENT_AVX512_CODE_IN_USE_ = false;
+#    endif
+#else
+#    define _DR_CLIENT_AVX512_CODE_IN_USE_ false
 #endif
 
 /* A flag that can be used to identify whether this file was included */

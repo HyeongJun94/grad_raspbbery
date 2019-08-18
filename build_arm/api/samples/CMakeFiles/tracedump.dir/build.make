@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -50,18 +50,18 @@ include api/samples/CMakeFiles/tracedump.dir/progress.make
 include api/samples/CMakeFiles/tracedump.dir/flags.make
 
 api/samples/CMakeFiles/tracedump.dir/tracedump.c.o: api/samples/CMakeFiles/tracedump.dir/flags.make
-api/samples/CMakeFiles/tracedump.dir/tracedump.c.o: /home/hyeongjun/workspace/dynamorio/api/samples/tracedump.c
+api/samples/CMakeFiles/tracedump.dir/tracedump.c.o: /home/hyeongjun/workspace/backup/api/samples/tracedump.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object api/samples/CMakeFiles/tracedump.dir/tracedump.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -o CMakeFiles/tracedump.dir/tracedump.c.o   -c /home/hyeongjun/workspace/dynamorio/api/samples/tracedump.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -o CMakeFiles/tracedump.dir/tracedump.c.o   -c /home/hyeongjun/workspace/backup/api/samples/tracedump.c
 
 api/samples/CMakeFiles/tracedump.dir/tracedump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tracedump.dir/tracedump.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -E /home/hyeongjun/workspace/dynamorio/api/samples/tracedump.c > CMakeFiles/tracedump.dir/tracedump.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -E /home/hyeongjun/workspace/backup/api/samples/tracedump.c > CMakeFiles/tracedump.dir/tracedump.c.i
 
 api/samples/CMakeFiles/tracedump.dir/tracedump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tracedump.dir/tracedump.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -S /home/hyeongjun/workspace/dynamorio/api/samples/tracedump.c -o CMakeFiles/tracedump.dir/tracedump.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -O2 -S /home/hyeongjun/workspace/backup/api/samples/tracedump.c -o CMakeFiles/tracedump.dir/tracedump.c.s
 
 api/samples/CMakeFiles/tracedump.dir/tracedump.c.o.requires:
 .PHONY : api/samples/CMakeFiles/tracedump.dir/tracedump.c.o.requires
@@ -99,6 +99,6 @@ api/samples/CMakeFiles/tracedump.dir/clean:
 .PHONY : api/samples/CMakeFiles/tracedump.dir/clean
 
 api/samples/CMakeFiles/tracedump.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/CMakeFiles/tracedump.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples /home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/CMakeFiles/tracedump.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : api/samples/CMakeFiles/tracedump.dir/depend
 

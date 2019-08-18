@@ -156,6 +156,17 @@ typedef enum _dr_pred_type_t {
 #endif
 } dr_pred_type_t;
 
+/**
+ * Specifies hints for how an instruction should be encoded if redundant encodings are
+ * available. Currently, we provide a hint for x86 evex encoded instructions. It can be
+ * used to encode an instruction in its evex form instead of its vex format (xref #3339).
+ */
+typedef enum _dr_encoding_hint_type_t {
+    DR_ENCODING_HINT_NONE = 0x0, /**< No encoding hint is present. */
+#ifdef X86
+    DR_ENCODING_HINT_X86_EVEX = 0x1, /**< x86: Encode in EVEX form if available. */
+#endif
+} dr_encoding_hint_type_t;
 
 
 /**
@@ -225,6 +236,9 @@ typedef enum _dr_opnd_query_flags_t {
 struct _instr_t {
     /* flags contains the constants defined above */
     uint flags;
+
+    /* hints for encoding this instr in a specific way, holds dr_encoding_hint_type_t */
+    uint encoding_hints;
 
     /* Raw bits of length length are pointed to by the bytes field.
      * label_cb stores a callback function pointer used by label instructions
@@ -1044,6 +1058,24 @@ dr_isa_mode_t
 instr_get_isa_mode(instr_t *instr);
 
 /**
+ * Each instruction may store a hint for how the instruction should be encoded if
+ * redundant encodings are available. This presumes that the user knows that a
+ * redundant encoding is available. This routine sets the \p hint for \p instr.
+ * Returns \p instr (for easy chaining).
+ */
+instr_t *
+instr_set_encoding_hint(instr_t *instr, dr_encoding_hint_type_t hint);
+
+/**
+ * Each instruction may store a hint for how the instruction should be encoded if
+ * redundant encodings are available. This presumes that the user knows that a
+ * redundant encoding is available. This routine returns whether the \p hint is set
+ * for \p instr.
+ */
+bool
+instr_has_encoding_hint(instr_t *instr, dr_encoding_hint_type_t hint);
+
+/**
  * Shrinks all registers not used as addresses, and all immed integer and
  * address sizes, to 16 bits.
  * Does not shrink DR_REG_ESI or DR_REG_EDI used in string instructions.
@@ -1498,6 +1530,10 @@ instr_is_floating_ex(instr_t *instr, dr_fp_type_t *type);
 /** Returns true iff \p instr is part of Intel's MMX instructions. */
 bool
 instr_is_mmx(instr_t *instr);
+
+/** Returns true iff \p instr is part of Intel's AVX-512 scalar opmask instructions. */
+bool
+instr_is_opmask(instr_t *instr);
 
 /** Returns true iff \p instr is part of Intel's SSE instructions. */
 bool
@@ -2263,13 +2299,16 @@ opnd_create_pc(app_pc pc)
         (CLIENT_ASSERT_(opnd_is_base_disp(opnd),                                \
                         "opnd_get_base_disp called on invalid opnd type")(opnd) \
              .value.base_disp)
-
 #define OPND_GET_BASE(opnd) (GET_BASE_DISP(opnd).base_reg)
 #define OPND_GET_DISP(opnd) (GET_BASE_DISP(opnd).disp)
-#define OPND_GET_INDEX(opnd) (GET_BASE_DISP(opnd).index_reg)
 #ifdef X86
+#    define OPND_GET_INDEX(opnd)                                \
+            (GET_BASE_DISP(opnd).index_reg_is_zmm                   \
+                 ? DR_REG_START_ZMM + GET_BASE_DISP(opnd).index_reg \
+                 : GET_BASE_DISP(opnd).index_reg)
 #    define OPND_GET_SCALE(opnd) (GET_BASE_DISP(opnd).scale)
 #else
+#    define OPND_GET_INDEX(opnd) (GET_BASE_DISP(opnd).index_reg)
 #    define OPND_GET_SCALE(opnd) 0
 #endif
 

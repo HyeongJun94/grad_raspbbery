@@ -1,8 +1,8 @@
-# Install script for directory: /home/hyeongjun/workspace/dynamorio/clients/drcpusim
+# Install script for directory: /home/hyeongjun/workspace/backup/clients/drcpusim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/dynamorio/exports")
+  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/backup/exports")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -42,7 +42,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -1002,6 +1002,30 @@ simulator/simulator.cpp.s:
 	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/simulator/simulator.cpp.s
 .PHONY : simulator/simulator.cpp.s
 
+simulator/snoop_filter.o: simulator/snoop_filter.cpp.o
+.PHONY : simulator/snoop_filter.o
+
+# target to build an object file
+simulator/snoop_filter.cpp.o:
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/simulator/snoop_filter.cpp.o
+.PHONY : simulator/snoop_filter.cpp.o
+
+simulator/snoop_filter.i: simulator/snoop_filter.cpp.i
+.PHONY : simulator/snoop_filter.i
+
+# target to preprocess a source file
+simulator/snoop_filter.cpp.i:
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/simulator/snoop_filter.cpp.i
+.PHONY : simulator/snoop_filter.cpp.i
+
+simulator/snoop_filter.s: simulator/snoop_filter.cpp.s
+.PHONY : simulator/snoop_filter.s
+
+# target to generate assembly for a file
+simulator/snoop_filter.cpp.s:
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/simulator/snoop_filter.cpp.s
+.PHONY : simulator/snoop_filter.cpp.s
+
 simulator/tlb.o: simulator/tlb.cpp.o
 .PHONY : simulator/tlb.o
 
@@ -1622,6 +1646,9 @@ help:
 	@echo "... simulator/simulator.o"
 	@echo "... simulator/simulator.i"
 	@echo "... simulator/simulator.s"
+	@echo "... simulator/snoop_filter.o"
+	@echo "... simulator/snoop_filter.i"
+	@echo "... simulator/snoop_filter.s"
 	@echo "... simulator/tlb.o"
 	@echo "... simulator/tlb.i"
 	@echo "... simulator/tlb.s"

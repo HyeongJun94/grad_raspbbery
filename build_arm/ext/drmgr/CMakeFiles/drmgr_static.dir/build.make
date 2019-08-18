@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -50,18 +50,18 @@ include ext/drmgr/CMakeFiles/drmgr_static.dir/progress.make
 include ext/drmgr/CMakeFiles/drmgr_static.dir/flags.make
 
 ext/drmgr/CMakeFiles/drmgr_static.dir/drmgr.c.o: ext/drmgr/CMakeFiles/drmgr_static.dir/flags.make
-ext/drmgr/CMakeFiles/drmgr_static.dir/drmgr.c.o: /home/hyeongjun/workspace/dynamorio/ext/drmgr/drmgr.c
+ext/drmgr/CMakeFiles/drmgr_static.dir/drmgr.c.o: /home/hyeongjun/workspace/backup/ext/drmgr/drmgr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object ext/drmgr/CMakeFiles/drmgr_static.dir/drmgr.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drmgr_static.dir/drmgr.c.o   -c /home/hyeongjun/workspace/dynamorio/ext/drmgr/drmgr.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -o CMakeFiles/drmgr_static.dir/drmgr.c.o   -c /home/hyeongjun/workspace/backup/ext/drmgr/drmgr.c
 
 ext/drmgr/CMakeFiles/drmgr_static.dir/drmgr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drmgr_static.dir/drmgr.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/dynamorio/ext/drmgr/drmgr.c > CMakeFiles/drmgr_static.dir/drmgr.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -E /home/hyeongjun/workspace/backup/ext/drmgr/drmgr.c > CMakeFiles/drmgr_static.dir/drmgr.c.i
 
 ext/drmgr/CMakeFiles/drmgr_static.dir/drmgr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drmgr_static.dir/drmgr.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/dynamorio/ext/drmgr/drmgr.c -o CMakeFiles/drmgr_static.dir/drmgr.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=gnu99 -fno-unwind-tables -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -fno-stack-protector -nostdlib -mthumb -S /home/hyeongjun/workspace/backup/ext/drmgr/drmgr.c -o CMakeFiles/drmgr_static.dir/drmgr.c.s
 
 ext/drmgr/CMakeFiles/drmgr_static.dir/drmgr.c.o.requires:
 .PHONY : ext/drmgr/CMakeFiles/drmgr_static.dir/drmgr.c.o.requires
@@ -98,6 +98,6 @@ ext/drmgr/CMakeFiles/drmgr_static.dir/clean:
 .PHONY : ext/drmgr/CMakeFiles/drmgr_static.dir/clean
 
 ext/drmgr/CMakeFiles/drmgr_static.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/ext/drmgr /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr/CMakeFiles/drmgr_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/ext/drmgr /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr /home/hyeongjun/workspace/raspberrypi/build_arm/ext/drmgr/CMakeFiles/drmgr_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext/drmgr/CMakeFiles/drmgr_static.dir/depend
 

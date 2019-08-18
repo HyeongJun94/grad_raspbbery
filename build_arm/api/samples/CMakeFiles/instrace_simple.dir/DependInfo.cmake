@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/api/samples/instrace_simple.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.o"
-  "/home/hyeongjun/workspace/dynamorio/api/samples/utils.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/CMakeFiles/instrace_simple.dir/utils.c.o"
+  "/home/hyeongjun/workspace/backup/api/samples/instrace_simple.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/CMakeFiles/instrace_simple.dir/instrace_simple.c.o"
+  "/home/hyeongjun/workspace/backup/api/samples/utils.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/api/samples/CMakeFiles/instrace_simple.dir/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

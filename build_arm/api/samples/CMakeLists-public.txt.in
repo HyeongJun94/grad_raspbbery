@@ -155,6 +155,7 @@ function (add_sample_client name source_file_list extension_list)
   foreach (ext ${extension_list})
     use_DynamoRIO_extension(${name} ${ext})
   endforeach (ext)
+
   # Provide a hint for how to use the client
   if (NOT DynamoRIO_INTERNAL OR NOT "${CMAKE_GENERATOR}" MATCHES "Ninja")
     DynamoRIO_get_full_path(path ${name} "${location_suffix}")
@@ -164,7 +165,6 @@ function (add_sample_client name source_file_list extension_list)
       ARGS -E echo "Usage: pass to drconfig or drrun: -c ${path}"
       VERBATIM)
   endif ()
-
 
 endfunction (add_sample_client)
 
@@ -195,16 +195,12 @@ endfunction (add_sample_standalone)
 configure_DynamoRIO_global(OFF ON)
 
 # Use ;-separated lists for source files and extensions.
+# Myclient
 add_library(myclient SHARED myclient_cxx.cpp)
-#add_executable(myclient myclient_cxx.cpp)
-#target_link_libraries(myclient android)
 configure_DynamoRIO_client(myclient)
 use_DynamoRIO_extension(myclient drwrap)
 use_DynamoRIO_extension(myclient drmgr)
-
-#add_sample_client(myclient_c    "myclient_c.c" 	 "drmgr;drwrap")
-#add_sample_client(myclient  "myclient_cxx.cpp" "drmgr;drwrap")
-#target_link_libraries(myclient android)
+use_DynamoRIO_extension(myclient drsyms)
 
 add_sample_client(bbbuf       "bbbuf.c"         "drmgr;drreg;drx")
 add_sample_client(bbcount     "bbcount.c"       "drmgr;drreg;drx")
@@ -246,7 +242,6 @@ add_sample_client(inline      "inline.c"        "drmgr;drcontainers")
 add_sample_client(inscount    "inscount.cpp"    "drmgr;droption")
 add_sample_client(opcodes     "opcodes.c"       "drmgr;drreg;drx")
 add_sample_client(stl_test    "stl_test.cpp"    "")
-
 
 if (WIN32)
   # This client is Windows-only.

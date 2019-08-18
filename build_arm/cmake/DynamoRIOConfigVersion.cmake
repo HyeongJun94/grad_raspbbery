@@ -31,7 +31,7 @@
 
 # Support clients specifying a version number to the find_package() command:
 
-set(PACKAGE_VERSION 7.90.18085)
+set(PACKAGE_VERSION 7.91.18122)
 
 # note that PACKAGE_VERSION_UNSUITABLE is meant for complete
 # binary incompatibility w/ any version: for a version mismatch,
@@ -48,11 +48,11 @@ elseif ("${PACKAGE_FIND_VERSION_MAJOR}" LESS 7)
   endif ("${PACKAGE_FIND_VERSION_MAJOR}" LESS 3)
 elseif ("${PACKAGE_FIND_VERSION_MAJOR}" EQUAL 7)
   # Asking for lesser minor version == backward compatible in general
-  if ("${PACKAGE_FIND_VERSION_MINOR}" EQUAL 90)
+  if ("${PACKAGE_FIND_VERSION_MINOR}" EQUAL 91)
     if ("${PACKAGE_FIND_VERSION_COUNT}" GREATER 2)
-      if ("${PACKAGE_FIND_VERSION_PATCH}" LESS 18085)
+      if ("${PACKAGE_FIND_VERSION_PATCH}" LESS 18122)
         set(PACKAGE_VERSION_COMPATIBLE 1)
-      elseif ("${PACKAGE_FIND_VERSION_PATCH}" EQUAL 18085)
+      elseif ("${PACKAGE_FIND_VERSION_PATCH}" EQUAL 18122)
         set(PACKAGE_VERSION_EXACT 1)
       else ()
         # asking for specific version so cannot give out older
@@ -60,7 +60,7 @@ elseif ("${PACKAGE_FIND_VERSION_MAJOR}" EQUAL 7)
     else ("${PACKAGE_FIND_VERSION_COUNT}" GREATER 2)
       set(PACKAGE_VERSION_EXACT 1)
     endif ("${PACKAGE_FIND_VERSION_COUNT}" GREATER 2)
-  elseif ("${PACKAGE_FIND_VERSION_MINOR}" LESS 90)
+  elseif ("${PACKAGE_FIND_VERSION_MINOR}" LESS 91)
     if ("${PACKAGE_FIND_VERSION_MAJOR}" EQUAL 4 AND
         "${PACKAGE_FIND_VERSION_MINOR}" EQUAL 0)
       # 4.1 is incompatible with 4.0

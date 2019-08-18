@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/hyeongjun/workspace/dynamorio/api/samples/opcodes.c
+/home/hyeongjun/workspace/backup/api/samples/opcodes.c
 dr_api.h
-/home/hyeongjun/workspace/dynamorio/api/samples/dr_api.h
+/home/hyeongjun/workspace/backup/api/samples/dr_api.h
 drmgr.h
-/home/hyeongjun/workspace/dynamorio/api/samples/drmgr.h
+/home/hyeongjun/workspace/backup/api/samples/drmgr.h
 drx.h
-/home/hyeongjun/workspace/dynamorio/api/samples/drx.h
+/home/hyeongjun/workspace/backup/api/samples/drx.h
 stdlib.h
 -
 

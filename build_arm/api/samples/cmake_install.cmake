@@ -1,8 +1,8 @@
-# Install script for directory: /home/hyeongjun/workspace/dynamorio/api/samples
+# Install script for directory: /home/hyeongjun/workspace/backup/api/samples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/dynamorio/exports")
+  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/backup/exports")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -290,26 +290,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/samples" TYPE FILE FILES
-    "/home/hyeongjun/workspace/dynamorio/api/samples/bbbuf.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/bbcount.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/bbsize.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/div.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/empty.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/memtrace_simple.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/utils.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/memval_simple.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/utils.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/instrace_simple.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/utils.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/wrap.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/signal.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/syscall.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/inline.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/inscount.cpp"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/opcodes.c"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/stl_test.cpp"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/utils.h"
-    "/home/hyeongjun/workspace/dynamorio/api/samples/tracedump.c"
+    "/home/hyeongjun/workspace/backup/api/samples/bbbuf.c"
+    "/home/hyeongjun/workspace/backup/api/samples/bbcount.c"
+    "/home/hyeongjun/workspace/backup/api/samples/bbsize.c"
+    "/home/hyeongjun/workspace/backup/api/samples/div.c"
+    "/home/hyeongjun/workspace/backup/api/samples/empty.c"
+    "/home/hyeongjun/workspace/backup/api/samples/memtrace_simple.c"
+    "/home/hyeongjun/workspace/backup/api/samples/utils.c"
+    "/home/hyeongjun/workspace/backup/api/samples/memval_simple.c"
+    "/home/hyeongjun/workspace/backup/api/samples/utils.c"
+    "/home/hyeongjun/workspace/backup/api/samples/instrace_simple.c"
+    "/home/hyeongjun/workspace/backup/api/samples/utils.c"
+    "/home/hyeongjun/workspace/backup/api/samples/wrap.c"
+    "/home/hyeongjun/workspace/backup/api/samples/signal.c"
+    "/home/hyeongjun/workspace/backup/api/samples/syscall.c"
+    "/home/hyeongjun/workspace/backup/api/samples/inline.c"
+    "/home/hyeongjun/workspace/backup/api/samples/inscount.cpp"
+    "/home/hyeongjun/workspace/backup/api/samples/opcodes.c"
+    "/home/hyeongjun/workspace/backup/api/samples/stl_test.cpp"
+    "/home/hyeongjun/workspace/backup/api/samples/utils.h"
+    "/home/hyeongjun/workspace/backup/api/samples/tracedump.c"
     )
 endif()
 

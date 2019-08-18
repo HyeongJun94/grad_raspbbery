@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -50,18 +50,18 @@ include tools/CMakeFiles/nudgeunix.dir/progress.make
 include tools/CMakeFiles/nudgeunix.dir/flags.make
 
 tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o: tools/CMakeFiles/nudgeunix.dir/flags.make
-tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o: /home/hyeongjun/workspace/dynamorio/tools/nudgeunix.c
+tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o: /home/hyeongjun/workspace/backup/tools/nudgeunix.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/nudgeunix.dir/nudgeunix.c.o   -c /home/hyeongjun/workspace/dynamorio/tools/nudgeunix.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/nudgeunix.dir/nudgeunix.c.o   -c /home/hyeongjun/workspace/backup/tools/nudgeunix.c
 
 tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nudgeunix.dir/nudgeunix.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/dynamorio/tools/nudgeunix.c > CMakeFiles/nudgeunix.dir/nudgeunix.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/backup/tools/nudgeunix.c > CMakeFiles/nudgeunix.dir/nudgeunix.c.i
 
 tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nudgeunix.dir/nudgeunix.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/dynamorio/tools/nudgeunix.c -o CMakeFiles/nudgeunix.dir/nudgeunix.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/backup/tools/nudgeunix.c -o CMakeFiles/nudgeunix.dir/nudgeunix.c.s
 
 tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o.requires:
 .PHONY : tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o.requires
@@ -73,18 +73,18 @@ tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o.provides: tools/CMakeFiles/nudgeuni
 tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o.provides.build: tools/CMakeFiles/nudgeunix.dir/nudgeunix.c.o
 
 tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o: tools/CMakeFiles/nudgeunix.dir/flags.make
-tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o: /home/hyeongjun/workspace/dynamorio/core/unix/nudgesig.c
+tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o: /home/hyeongjun/workspace/backup/core/unix/nudgesig.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o   -c /home/hyeongjun/workspace/dynamorio/core/unix/nudgesig.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o   -c /home/hyeongjun/workspace/backup/core/unix/nudgesig.c
 
 tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/dynamorio/core/unix/nudgesig.c > CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/backup/core/unix/nudgesig.c > CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.i
 
 tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/dynamorio/core/unix/nudgesig.c -o CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/backup/core/unix/nudgesig.c -o CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.s
 
 tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o.requires:
 .PHONY : tools/CMakeFiles/nudgeunix.dir/__/core/unix/nudgesig.c.o.requires
@@ -123,6 +123,6 @@ tools/CMakeFiles/nudgeunix.dir/clean:
 .PHONY : tools/CMakeFiles/nudgeunix.dir/clean
 
 tools/CMakeFiles/nudgeunix.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/tools /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/tools /home/hyeongjun/workspace/raspberrypi/build_arm/tools/CMakeFiles/nudgeunix.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/tools /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/tools /home/hyeongjun/workspace/raspberrypi/build_arm/tools/CMakeFiles/nudgeunix.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/CMakeFiles/nudgeunix.dir/depend
 

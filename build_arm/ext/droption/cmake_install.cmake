@@ -1,8 +1,8 @@
-# Install script for directory: /home/hyeongjun/workspace/dynamorio/ext/droption
+# Install script for directory: /home/hyeongjun/workspace/backup/ext/droption
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/dynamorio/exports")
+  set(CMAKE_INSTALL_PREFIX "/home/hyeongjun/workspace/backup/exports")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ext/include" TYPE FILE FILES "/home/hyeongjun/workspace/dynamorio/ext/droption/droption.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ext/include" TYPE FILE FILES "/home/hyeongjun/workspace/backup/ext/droption/droption.h")
 endif()
 

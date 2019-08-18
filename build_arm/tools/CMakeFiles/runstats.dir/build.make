@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -50,18 +50,18 @@ include tools/CMakeFiles/runstats.dir/progress.make
 include tools/CMakeFiles/runstats.dir/flags.make
 
 tools/CMakeFiles/runstats.dir/runstats.c.o: tools/CMakeFiles/runstats.dir/flags.make
-tools/CMakeFiles/runstats.dir/runstats.c.o: /home/hyeongjun/workspace/dynamorio/tools/runstats.c
+tools/CMakeFiles/runstats.dir/runstats.c.o: /home/hyeongjun/workspace/backup/tools/runstats.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object tools/CMakeFiles/runstats.dir/runstats.c.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/runstats.dir/runstats.c.o   -c /home/hyeongjun/workspace/dynamorio/tools/runstats.c
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/runstats.dir/runstats.c.o   -c /home/hyeongjun/workspace/backup/tools/runstats.c
 
 tools/CMakeFiles/runstats.dir/runstats.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/runstats.dir/runstats.c.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/dynamorio/tools/runstats.c > CMakeFiles/runstats.dir/runstats.c.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/hyeongjun/workspace/backup/tools/runstats.c > CMakeFiles/runstats.dir/runstats.c.i
 
 tools/CMakeFiles/runstats.dir/runstats.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/runstats.dir/runstats.c.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/dynamorio/tools/runstats.c -o CMakeFiles/runstats.dir/runstats.c.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/tools && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/hyeongjun/workspace/backup/tools/runstats.c -o CMakeFiles/runstats.dir/runstats.c.s
 
 tools/CMakeFiles/runstats.dir/runstats.c.o.requires:
 .PHONY : tools/CMakeFiles/runstats.dir/runstats.c.o.requires
@@ -97,6 +97,6 @@ tools/CMakeFiles/runstats.dir/clean:
 .PHONY : tools/CMakeFiles/runstats.dir/clean
 
 tools/CMakeFiles/runstats.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/tools /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/tools /home/hyeongjun/workspace/raspberrypi/build_arm/tools/CMakeFiles/runstats.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/tools /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/tools /home/hyeongjun/workspace/raspberrypi/build_arm/tools/CMakeFiles/runstats.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/CMakeFiles/runstats.dir/depend
 

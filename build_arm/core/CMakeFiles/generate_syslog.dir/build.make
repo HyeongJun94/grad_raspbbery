@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -47,11 +47,11 @@ include core/CMakeFiles/generate_syslog.dir/progress.make
 
 core/CMakeFiles/generate_syslog: event_strings.h
 
-event_strings.h: /home/hyeongjun/workspace/dynamorio/core/win32/events.mc
-event_strings.h: /home/hyeongjun/workspace/dynamorio/core/gen_event_strings.pl
+event_strings.h: /home/hyeongjun/workspace/backup/core/win32/events.mc
+event_strings.h: /home/hyeongjun/workspace/backup/core/gen_event_strings.pl
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../event_strings.h"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/perl /home/hyeongjun/workspace/dynamorio/core/gen_event_strings.pl /home/hyeongjun/workspace/dynamorio/core/win32/events.mc /home/hyeongjun/workspace/raspberrypi/build_arm/event_strings.h
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/core && /usr/bin/perl /home/hyeongjun/workspace/backup/core/gen_event_strings.pl /home/hyeongjun/workspace/backup/core/win32/events.mc /home/hyeongjun/workspace/raspberrypi/build_arm/event_strings.h
 
 generate_syslog: core/CMakeFiles/generate_syslog
 generate_syslog: event_strings.h
@@ -67,6 +67,6 @@ core/CMakeFiles/generate_syslog.dir/clean:
 .PHONY : core/CMakeFiles/generate_syslog.dir/clean
 
 core/CMakeFiles/generate_syslog.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/core /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/core /home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/generate_syslog.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/core /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/core /home/hyeongjun/workspace/raspberrypi/build_arm/core/CMakeFiles/generate_syslog.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : core/CMakeFiles/generate_syslog.dir/depend
 

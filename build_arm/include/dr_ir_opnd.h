@@ -379,6 +379,12 @@ enum {
     
     DR_REG_CR15, /**< The "cr15" register. */
     
+    /* All registers above this point may be used as opnd_size_t and therefore
+     * need to fit into a byte (checked in d_r_arch_init()). Register enums
+     * below this point must not be used as opnd_size_t.
+     */
+    DR_REG_MAX_AS_OPSZ = DR_REG_CR15, /**< The "cr15" register. */
+    
     DR_REG_INVALID, /**< Sentinel value indicating an invalid register. */
     /* 256-BIT YMM */
     DR_REG_YMM0, /**< The "ymm0" register. */
@@ -1298,7 +1304,7 @@ enum {
 /* we avoid typedef-ing the enum, as its storage size is compiler-specific */
 typedef ushort reg_id_t; /**< The type of a DR_REG_ enum value. */
 /* For x86 we do store reg_id_t here, but the x86 DR_REG_ enum is small enough
- * (checked in d_r_arch_init().
+ * (checked in d_r_arch_init()).
  */
 typedef byte opnd_size_t; /**< The type of an OPSZ_ enum value. */
 
@@ -1787,8 +1793,15 @@ struct _opnd_t {
 #elif defined(X86)
             byte scale : SCALE_SPECIFIER_BITS;
             byte /*bool*/ encode_zero_disp : 1;
-            byte /*bool*/ force_full_disp : 1; /* don't use 8-bit even w/ 8-bit value */
-            byte /*bool*/ disp_short_addr : 1; /* 16-bit (32 in x64) addr (disp-only) */
+            byte /*bool*/ force_full_disp : 1;  /* don't use 8-bit even w/ 8-bit value */
+            byte /*bool*/ disp_short_addr : 1;  /* 16-bit (32 in x64) addr (disp-only) */
+            byte /*bool*/ index_reg_is_zmm : 1; /* Indicates that the index_reg of the
+                                                 * VSIB address is of length ZMM. This
+                                                 * flag is not exposed and serves as an
+                                                 * internal AVX-512 extension of
+                                                 * index_reg, leaving index_reg binary
+                                                 * compatible at 8 bits.
+                                                 */
 #endif
         } base_disp; /* BASE_DISP_kind */
         void *addr;  /* REL_ADDR_kind and ABS_ADDR_kind */
@@ -2642,13 +2655,23 @@ reg_id_t
 reg_64_to_32(reg_id_t reg);
 
 /**
- * Returns true iff \p reg refers to an extended register only available
- * in 64-bit mode and not in 32-bit mode (e.g., R8-R15, XMM8-XMM31, etc.)
+ * Returns true iff \p reg refers to an extended register only available in 64-bit
+ * mode and not in 32-bit mode. For AVX-512, it also returns true for the upper 8
+ * SIMD registers (e.g., R8-R15, XMM8-XMM15, XMM24-XMM31, ZMM24-ZMM31 etc.)
  *
  * \note For 64-bit DR builds only.
  */
 bool
 reg_is_extended(reg_id_t reg);
+
+/**
+ * Returns true iff \p reg refers to an extended AVX-512 register only available
+ * in 64-bit mode and not in 32-bit mode (e.g., XMM16-XMM31, ZMM16-ZMM31 etc.)
+ *
+ * \note For 64-bit DR builds only.
+ */
+bool
+reg_is_avx512_extended(reg_id_t reg);
 #endif
 
 
@@ -2975,7 +2998,11 @@ reg_get_value(reg_id_t reg, dr_mcontext_t *mc);
  * for an mmx register as stored in the physical register.
  * Up to sizeof(dr_zmm_t) bytes will be written to \p val.
  *
+ * This routine also supports reading AVX-512 mask registers. In this
+ * case, sizeof(dr_opmask_t) bytes will be written to \p val.
+ *
  * This routine does not support floating-point registers.
+ *
  *
  * \note \p mc->flags must include the appropriate flag for the
  * requested register.
@@ -2986,11 +3013,29 @@ reg_get_value_ex(reg_id_t reg, dr_mcontext_t *mc, OUT byte *val);
 /**
  * Sets the register \p reg in the passed in mcontext \p mc to \p value.
  * \p mc->flags must include DR_MC_CONTROL and DR_MC_INTEGER.
- * \note Current release is limited to setting pointer-sized registers only
+ * \note This function is limited to setting pointer-sized registers only
  * (no sub-registers, and no non-general-purpose registers).
+ * See \p reg_set_value_ex for setting other register values.
  */
 void
 reg_set_value(reg_id_t reg, dr_mcontext_t *mc, reg_t value);
+
+/**
+ * Sets the register \p reg in the passed in mcontext \p mc to the value
+ * stored in the buffer \p val_buf.
+ *
+ * \p mc->flags must include DR_MC_CONTROL and DR_MC_INTEGER.
+ *
+ * Unlike \p reg_set_value, this function supports not only general purpose
+ * registers, but SIMD registers too. Does not yet support MMX registers.
+ *
+ * Up to sizeof(dr_zmm_t) bytes will be read from \p val_buf. It is up
+ * to the user to ensure correct buffer size.
+ *
+ * Returns false if the register is not supported.
+ */
+bool
+reg_set_value_ex(reg_id_t reg, dr_mcontext_t *mc, IN byte *val_buf);
 
 /**
  * Returns the effective address of \p opnd, computed using the passed-in
@@ -3167,13 +3212,21 @@ enum {
     OPSZ_100, /**< 100 bytes. Needed for load/store of register lists. */
     OPSZ_104, /**< 104 bytes. Needed for load/store of register lists. */
     /* OPSZ_108 already exists */
-    OPSZ_112,           /**< 112 bytes. Needed for load/store of register lists. */
-    OPSZ_116,           /**< 116 bytes. Needed for load/store of register lists. */
-    OPSZ_120,           /**< 120 bytes. Needed for load/store of register lists. */
-    OPSZ_124,           /**< 124 bytes. Needed for load/store of register lists. */
-    OPSZ_128,           /**< 128 bytes. Needed for load/store of register lists. */
-    OPSZ_SCALABLE,      /** Scalable size for SVE vector registers. */
-    OPSZ_SCALABLE_PRED, /** Scalable size for SVE predicate registers. */
+    OPSZ_112,             /**< 112 bytes. Needed for load/store of register lists. */
+    OPSZ_116,             /**< 116 bytes. Needed for load/store of register lists. */
+    OPSZ_120,             /**< 120 bytes. Needed for load/store of register lists. */
+    OPSZ_124,             /**< 124 bytes. Needed for load/store of register lists. */
+    OPSZ_128,             /**< 128 bytes. Needed for load/store of register lists. */
+    OPSZ_SCALABLE,        /**< Scalable size for SVE vector registers. */
+    OPSZ_SCALABLE_PRED,   /**< Scalable size for SVE predicate registers. */
+    OPSZ_16_vex32_evex64, /**< 16, 32, or 64 bytes depending on EVEX.L and EVEX.LL'. */
+    OPSZ_vex32_evex64,    /**< 32 or 64 bytes depending on EVEX.L and EVEX.LL'. */
+    OPSZ_16_of_32_evex64, /**< 128 bits: half of YMM or quarter of ZMM depending on
+                           * EVEX.LL'.
+                           */
+    OPSZ_32_of_64,        /**< 256 bits: half of ZMM. */
+    OPSZ_4_of_32_evex64,  /**< 32 bits: can be part of YMM or ZMM register. */
+    OPSZ_8_of_32_evex64,  /**< 64 bits: can be part of YMM or ZMM register. */
     OPSZ_LAST,
 };
 

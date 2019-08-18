@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/dynamorio
+CMAKE_SOURCE_DIR = /home/hyeongjun/workspace/backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hyeongjun/workspace/raspberrypi/build_arm
@@ -50,18 +50,18 @@ include clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/progress.make
 include clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/flags.make
 
 clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.o: clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/flags.make
-clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.o: /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tools/opcode_mix.cpp
+clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.o: /home/hyeongjun/workspace/backup/clients/drcachesim/tools/opcode_mix.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.o"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.o -c /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tools/opcode_mix.cpp
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -o CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.o -c /home/hyeongjun/workspace/backup/clients/drcachesim/tools/opcode_mix.cpp
 
 clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.i"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tools/opcode_mix.cpp > CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.i
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -E /home/hyeongjun/workspace/backup/clients/drcachesim/tools/opcode_mix.cpp > CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.i
 
 clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.s"
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/dynamorio/clients/drcachesim/tools/opcode_mix.cpp -o CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.s
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim && /usr/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -mthumb -march=armv7-a -fno-strict-aliasing -fno-stack-protector -fvisibility=internal -std=c++11 -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -Wno-psabi -S /home/hyeongjun/workspace/backup/clients/drcachesim/tools/opcode_mix.cpp -o CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.s
 
 clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.o.requires:
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/tools/opcode_mix.cpp.o.requires
@@ -98,6 +98,6 @@ clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/clean:
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/clean
 
 clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/depend:
-	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/dynamorio /home/hyeongjun/workspace/dynamorio/clients/drcachesim /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyeongjun/workspace/raspberrypi/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyeongjun/workspace/backup /home/hyeongjun/workspace/backup/clients/drcachesim /home/hyeongjun/workspace/raspberrypi/build_arm /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim /home/hyeongjun/workspace/raspberrypi/build_arm/clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/depend
 

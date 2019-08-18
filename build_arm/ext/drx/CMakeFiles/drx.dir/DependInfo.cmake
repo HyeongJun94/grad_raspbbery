@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hyeongjun/workspace/dynamorio/ext/drx/drx.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx/CMakeFiles/drx.dir/drx.c.o"
-  "/home/hyeongjun/workspace/dynamorio/ext/drx/drx_buf.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx/CMakeFiles/drx.dir/drx_buf.c.o"
+  "/home/hyeongjun/workspace/backup/ext/drx/drx.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx/CMakeFiles/drx.dir/drx.c.o"
+  "/home/hyeongjun/workspace/backup/ext/drx/drx_buf.c" "/home/hyeongjun/workspace/raspberrypi/build_arm/ext/drx/CMakeFiles/drx.dir/drx_buf.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -21,7 +21,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
   "cmake/../include"
-  "/home/hyeongjun/workspace/dynamorio/ext/drx/ext/lib32/release"
+  "/home/hyeongjun/workspace/backup/ext/drx/ext/lib32/release"
   "ext/include"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

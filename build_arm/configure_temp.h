@@ -96,10 +96,10 @@
 /* #undef RECORD_MEMQUERY */
 
 /* when packaging */
-#define VERSION_NUMBER 7.90.18085
-#define VERSION_COMMA_DELIMITED 7,90,18085
-#define VERSION_NUMBER_INTEGER 790
-#define OLDEST_COMPATIBLE_VERSION 790
+#define VERSION_NUMBER 7.91.18122
+#define VERSION_COMMA_DELIMITED 7,91,18122
+#define VERSION_NUMBER_INTEGER 791
+#define OLDEST_COMPATIBLE_VERSION 791
 /* #undef BUILD_NUMBER */
 /* #undef UNIQUE_BUILD_NUMBER */
 /* #undef CUSTOM_PRODUCT_NAME */
@@ -110,6 +110,7 @@
 #define HAVE_TYPELIMITS_CONTROL
 -DHAVE_TYPELIMITS_CONTROL
 /* #undef ANNOTATIONS */
+/* #undef HAVE_RSEQ */
 
 /* typedef conflicts */
 /* #undef DR_DO_NOT_DEFINE_bool */
@@ -239,9 +240,6 @@
 #    we're just starting to add VMKERNEL and MACOS support
 #    $(D)X86
 #    $(D)X64
-
-# support for running in x86 emulator on IA-64
-#    $(D)IA32_ON_IA64
 
 # build script provides these
 #    $(D)BUILD_NUMBER (<64K == vmware's PRODUCT_BUILD_NUMBER)
