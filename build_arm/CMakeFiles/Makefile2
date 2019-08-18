@@ -379,9 +379,9 @@ libutil/preinstall:
 # Target rules for target libutil/CMakeFiles/drconfiglib.dir
 
 # All Build rule for target.
-libutil/CMakeFiles/drconfiglib.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 libutil/CMakeFiles/drconfiglib.dir/all: core/CMakeFiles/generate_syslog.dir/all
 libutil/CMakeFiles/drconfiglib.dir/all: core/CMakeFiles/drlibc.dir/all
+libutil/CMakeFiles/drconfiglib.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 	$(MAKE) -f libutil/CMakeFiles/drconfiglib.dir/build.make libutil/CMakeFiles/drconfiglib.dir/depend
 	$(MAKE) -f libutil/CMakeFiles/drconfiglib.dir/build.make libutil/CMakeFiles/drconfiglib.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  7
@@ -479,8 +479,8 @@ tools/preinstall:
 
 # All Build rule for target.
 tools/CMakeFiles/drconfig.dir/all: libutil/CMakeFiles/drconfiglib.dir/all
-tools/CMakeFiles/drconfig.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 tools/CMakeFiles/drconfig.dir/all: core/CMakeFiles/drlibc.dir/all
+tools/CMakeFiles/drconfig.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 	$(MAKE) -f tools/CMakeFiles/drconfig.dir/build.make tools/CMakeFiles/drconfig.dir/depend
 	$(MAKE) -f tools/CMakeFiles/drconfig.dir/build.make tools/CMakeFiles/drconfig.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  6
@@ -516,10 +516,10 @@ clean: tools/CMakeFiles/drconfig.dir/clean
 
 # All Build rule for target.
 tools/CMakeFiles/drinject.dir/all: libutil/CMakeFiles/drconfiglib.dir/all
-tools/CMakeFiles/drinject.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 tools/CMakeFiles/drinject.dir/all: core/CMakeFiles/drlibc.dir/all
-tools/CMakeFiles/drinject.dir/all: core/CMakeFiles/drdecode.dir/all
 tools/CMakeFiles/drinject.dir/all: core/CMakeFiles/drinjectlib.dir/all
+tools/CMakeFiles/drinject.dir/all: core/CMakeFiles/drdecode.dir/all
+tools/CMakeFiles/drinject.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 	$(MAKE) -f tools/CMakeFiles/drinject.dir/build.make tools/CMakeFiles/drinject.dir/depend
 	$(MAKE) -f tools/CMakeFiles/drinject.dir/build.make tools/CMakeFiles/drinject.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  18
@@ -590,10 +590,10 @@ clean: tools/CMakeFiles/drloader.dir/clean
 
 # All Build rule for target.
 tools/CMakeFiles/drrun.dir/all: libutil/CMakeFiles/drconfiglib.dir/all
-tools/CMakeFiles/drrun.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 tools/CMakeFiles/drrun.dir/all: core/CMakeFiles/drlibc.dir/all
-tools/CMakeFiles/drrun.dir/all: core/CMakeFiles/drdecode.dir/all
 tools/CMakeFiles/drrun.dir/all: core/CMakeFiles/drinjectlib.dir/all
+tools/CMakeFiles/drrun.dir/all: core/CMakeFiles/drdecode.dir/all
+tools/CMakeFiles/drrun.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 	$(MAKE) -f tools/CMakeFiles/drrun.dir/build.make tools/CMakeFiles/drrun.dir/depend
 	$(MAKE) -f tools/CMakeFiles/drrun.dir/build.make tools/CMakeFiles/drrun.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -792,9 +792,9 @@ clients/drcov/preinstall:
 # All Build rule for target.
 clients/drcov/CMakeFiles/drcov.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcov/CMakeFiles/drcov.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcov/CMakeFiles/drcov.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 clients/drcov/CMakeFiles/drcov.dir/all: ext/drx/CMakeFiles/drx.dir/all
 clients/drcov/CMakeFiles/drcov.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcov/CMakeFiles/drcov.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 clients/drcov/CMakeFiles/drcov.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 clients/drcov/CMakeFiles/drcov.dir/all: ext/drcovlib/CMakeFiles/drcovlib.dir/all
 	$(MAKE) -f clients/drcov/CMakeFiles/drcov.dir/build.make clients/drcov/CMakeFiles/drcov.dir/depend
@@ -831,12 +831,12 @@ clean: clients/drcov/CMakeFiles/drcov.dir/clean
 # Target rules for target clients/drcov/CMakeFiles/drcov2lcov.dir
 
 # All Build rule for target.
-clients/drcov/CMakeFiles/drcov2lcov.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcov/CMakeFiles/drcov2lcov.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcov/CMakeFiles/drcov2lcov.dir/all: ext/drsyms/CMakeFiles/drsyms_static.dir/all
@@ -954,9 +954,9 @@ clients/drcachesim/preinstall:
 # Target rules for target clients/drcachesim/CMakeFiles/directory_iterator.dir
 
 # All Build rule for target.
-clients/drcachesim/CMakeFiles/directory_iterator.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/directory_iterator.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/directory_iterator.dir/all: core/CMakeFiles/drlibc.dir/all
+clients/drcachesim/CMakeFiles/directory_iterator.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/directory_iterator.dir/build.make clients/drcachesim/CMakeFiles/directory_iterator.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/directory_iterator.dir/build.make clients/drcachesim/CMakeFiles/directory_iterator.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -992,24 +992,24 @@ clean: clients/drcachesim/CMakeFiles/directory_iterator.dir/clean
 
 # All Build rule for target.
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: libutil/CMakeFiles/drconfiglib.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drlibc.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drinjectlib.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/dynamorio.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drdecode.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: core/CMakeFiles/drinjectlib.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_reuse_distance.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_reuse_time.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_basic_counts.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_basic_counts.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/all
+clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
-clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drutil/CMakeFiles/drutil_static.dir/all
 clients/drcachesim/CMakeFiles/drcachesim.dir/all: ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
@@ -1115,13 +1115,13 @@ clean: clients/drcachesim/CMakeFiles/drcachesim_ops.dir/clean
 # All Build rule for target.
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drx/CMakeFiles/drx.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drwrap/CMakeFiles/drwrap.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drwrap/CMakeFiles/drwrap.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drsyms/CMakeFiles/drsyms.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drutil/CMakeFiles/drutil.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drsyms/CMakeFiles/drsyms.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace.dir/all: ext/drcovlib/CMakeFiles/drcovlib.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace.dir/build
@@ -1157,8 +1157,8 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir
 
 # All Build rule for target.
-clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all: core/CMakeFiles/drlibc.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/build
@@ -1299,11 +1299,11 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir
 
 # All Build rule for target.
-clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all: ext/drutil/CMakeFiles/drutil_static.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/build.make clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/build
@@ -1446,8 +1446,8 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_simulator.dir/clean
 # All Build rule for target.
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drwrap/CMakeFiles/drwrap_static.dir/all
 clients/drcachesim/CMakeFiles/drmemtrace_static.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
@@ -1523,15 +1523,15 @@ clean: clients/drcachesim/CMakeFiles/drmemtrace_view.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/drraw2trace.dir
 
 # All Build rule for target.
-clients/drcachesim/CMakeFiles/drraw2trace.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: core/CMakeFiles/dynamorio.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: core/CMakeFiles/drdecode.dir/all
+clients/drcachesim/CMakeFiles/drraw2trace.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
+clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
-clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
-clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drutil/CMakeFiles/drutil_static.dir/all
 clients/drcachesim/CMakeFiles/drraw2trace.dir/all: ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
@@ -1569,11 +1569,11 @@ clean: clients/drcachesim/CMakeFiles/drraw2trace.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/histogram_launcher.dir
 
 # All Build rule for target.
-clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: core/CMakeFiles/drlibc.dir/all
-clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all
+clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_histogram.dir/all
+clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all
 clients/drcachesim/CMakeFiles/histogram_launcher.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
 	$(MAKE) -f clients/drcachesim/CMakeFiles/histogram_launcher.dir/build.make clients/drcachesim/CMakeFiles/histogram_launcher.dir/depend
 	$(MAKE) -f clients/drcachesim/CMakeFiles/histogram_launcher.dir/build.make clients/drcachesim/CMakeFiles/histogram_launcher.dir/build
@@ -1609,18 +1609,18 @@ clean: clients/drcachesim/CMakeFiles/histogram_launcher.dir/clean
 # Target rules for target clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir
 
 # All Build rule for target.
-clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: core/CMakeFiles/drlibc.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: core/CMakeFiles/dynamorio.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: core/CMakeFiles/dynamorio_static.dir/all
+clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: libutil/CMakeFiles/drfrontendlib.dir/all
+clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
+clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_analyzer.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_raw2trace.dir/all
-clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/drmemtrace_opcode_mix.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: clients/drcachesim/CMakeFiles/directory_iterator.dir/all
-clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
-clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
-clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drutil/CMakeFiles/drutil_static.dir/all
 clients/drcachesim/CMakeFiles/opcode_mix_launcher.dir/all: ext/drcovlib/CMakeFiles/drcovlib_static.dir/all
@@ -1678,9 +1678,9 @@ clients/drcpusim/preinstall:
 # All Build rule for target.
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: CMakeFiles/api_headers.dir/all
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: core/CMakeFiles/dynamorio.dir/all
-clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drx/CMakeFiles/drx.dir/all
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 clients/drcpusim/CMakeFiles/drcpusim.dir/all: ext/drutil/CMakeFiles/drutil.dir/all
 	$(MAKE) -f clients/drcpusim/CMakeFiles/drcpusim.dir/build.make clients/drcpusim/CMakeFiles/drcpusim.dir/depend
@@ -1981,8 +1981,8 @@ ext/drx/preinstall:
 # All Build rule for target.
 ext/drx/CMakeFiles/drx.dir/all: CMakeFiles/api_headers.dir/all
 ext/drx/CMakeFiles/drx.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drx/CMakeFiles/drx.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 ext/drx/CMakeFiles/drx.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+ext/drx/CMakeFiles/drx.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 ext/drx/CMakeFiles/drx.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 	$(MAKE) -f ext/drx/CMakeFiles/drx.dir/build.make ext/drx/CMakeFiles/drx.dir/depend
 	$(MAKE) -f ext/drx/CMakeFiles/drx.dir/build.make ext/drx/CMakeFiles/drx.dir/build
@@ -2020,8 +2020,8 @@ clean: ext/drx/CMakeFiles/drx.dir/clean
 # All Build rule for target.
 ext/drx/CMakeFiles/drx_static.dir/all: CMakeFiles/api_headers.dir/all
 ext/drx/CMakeFiles/drx_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drx/CMakeFiles/drx_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 ext/drx/CMakeFiles/drx_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+ext/drx/CMakeFiles/drx_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 ext/drx/CMakeFiles/drx_static.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 	$(MAKE) -f ext/drx/CMakeFiles/drx_static.dir/build.make ext/drx/CMakeFiles/drx_static.dir/depend
 	$(MAKE) -f ext/drx/CMakeFiles/drx_static.dir/build.make ext/drx/CMakeFiles/drx_static.dir/build
@@ -2076,8 +2076,8 @@ ext/drwrap/preinstall:
 # All Build rule for target.
 ext/drwrap/CMakeFiles/drwrap.dir/all: CMakeFiles/api_headers.dir/all
 ext/drwrap/CMakeFiles/drwrap.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drwrap/CMakeFiles/drwrap.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 ext/drwrap/CMakeFiles/drwrap.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+ext/drwrap/CMakeFiles/drwrap.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f ext/drwrap/CMakeFiles/drwrap.dir/build.make ext/drwrap/CMakeFiles/drwrap.dir/depend
 	$(MAKE) -f ext/drwrap/CMakeFiles/drwrap.dir/build.make ext/drwrap/CMakeFiles/drwrap.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  43
@@ -2114,8 +2114,8 @@ clean: ext/drwrap/CMakeFiles/drwrap.dir/clean
 # All Build rule for target.
 ext/drwrap/CMakeFiles/drwrap_static.dir/all: CMakeFiles/api_headers.dir/all
 ext/drwrap/CMakeFiles/drwrap_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drwrap/CMakeFiles/drwrap_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 ext/drwrap/CMakeFiles/drwrap_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+ext/drwrap/CMakeFiles/drwrap_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 	$(MAKE) -f ext/drwrap/CMakeFiles/drwrap_static.dir/build.make ext/drwrap/CMakeFiles/drwrap_static.dir/depend
 	$(MAKE) -f ext/drwrap/CMakeFiles/drwrap_static.dir/build.make ext/drwrap/CMakeFiles/drwrap_static.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -2169,8 +2169,8 @@ ext/drreg/preinstall:
 # All Build rule for target.
 ext/drreg/CMakeFiles/drreg.dir/all: CMakeFiles/api_headers.dir/all
 ext/drreg/CMakeFiles/drreg.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drreg/CMakeFiles/drreg.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 ext/drreg/CMakeFiles/drreg.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+ext/drreg/CMakeFiles/drreg.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f ext/drreg/CMakeFiles/drreg.dir/build.make ext/drreg/CMakeFiles/drreg.dir/depend
 	$(MAKE) -f ext/drreg/CMakeFiles/drreg.dir/build.make ext/drreg/CMakeFiles/drreg.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -2207,8 +2207,8 @@ clean: ext/drreg/CMakeFiles/drreg.dir/clean
 # All Build rule for target.
 ext/drreg/CMakeFiles/drreg_static.dir/all: CMakeFiles/api_headers.dir/all
 ext/drreg/CMakeFiles/drreg_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drreg/CMakeFiles/drreg_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 ext/drreg/CMakeFiles/drreg_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+ext/drreg/CMakeFiles/drreg_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 	$(MAKE) -f ext/drreg/CMakeFiles/drreg_static.dir/build.make ext/drreg/CMakeFiles/drreg_static.dir/depend
 	$(MAKE) -f ext/drreg/CMakeFiles/drreg_static.dir/build.make ext/drreg/CMakeFiles/drreg_static.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  38
@@ -2497,9 +2497,9 @@ ext/drcovlib/preinstall:
 # All Build rule for target.
 ext/drcovlib/CMakeFiles/drcovlib.dir/all: CMakeFiles/api_headers.dir/all
 ext/drcovlib/CMakeFiles/drcovlib.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drx/CMakeFiles/drx.dir/all
 ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 ext/drcovlib/CMakeFiles/drcovlib.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 	$(MAKE) -f ext/drcovlib/CMakeFiles/drcovlib.dir/build.make ext/drcovlib/CMakeFiles/drcovlib.dir/depend
 	$(MAKE) -f ext/drcovlib/CMakeFiles/drcovlib.dir/build.make ext/drcovlib/CMakeFiles/drcovlib.dir/build
@@ -2537,8 +2537,8 @@ clean: ext/drcovlib/CMakeFiles/drcovlib.dir/clean
 # All Build rule for target.
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: CMakeFiles/api_headers.dir/all
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: core/CMakeFiles/dynamorio.dir/all
-ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drmgr/CMakeFiles/drmgr_static.dir/all
+ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drx/CMakeFiles/drx_static.dir/all
 ext/drcovlib/CMakeFiles/drcovlib_static.dir/all: ext/drreg/CMakeFiles/drreg_static.dir/all
 	$(MAKE) -f ext/drcovlib/CMakeFiles/drcovlib_static.dir/build.make ext/drcovlib/CMakeFiles/drcovlib_static.dir/depend
@@ -2624,9 +2624,9 @@ api/samples/preinstall:
 # All Build rule for target.
 api/samples/CMakeFiles/bbbuf.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/bbbuf.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/bbbuf.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/bbbuf.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/bbbuf.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+api/samples/CMakeFiles/bbbuf.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/bbbuf.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/bbbuf.dir/build.make api/samples/CMakeFiles/bbbuf.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/bbbuf.dir/build.make api/samples/CMakeFiles/bbbuf.dir/build
@@ -2664,9 +2664,9 @@ clean: api/samples/CMakeFiles/bbbuf.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/bbcount.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/bbcount.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/bbcount.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/bbcount.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/bbcount.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+api/samples/CMakeFiles/bbcount.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/bbcount.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/bbcount.dir/build.make api/samples/CMakeFiles/bbcount.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/bbcount.dir/build.make api/samples/CMakeFiles/bbcount.dir/build
@@ -2814,8 +2814,8 @@ clean: api/samples/CMakeFiles/empty.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/inline.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/inline.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/inline.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/inline.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+api/samples/CMakeFiles/inline.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/inline.dir/build.make api/samples/CMakeFiles/inline.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/inline.dir/build.make api/samples/CMakeFiles/inline.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles 
@@ -2889,9 +2889,9 @@ clean: api/samples/CMakeFiles/inscount.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/instrace_simple.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/instrace_simple.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/instrace_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/instrace_simple.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/instrace_simple.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+api/samples/CMakeFiles/instrace_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/instrace_simple.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/instrace_simple.dir/build.make api/samples/CMakeFiles/instrace_simple.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/instrace_simple.dir/build.make api/samples/CMakeFiles/instrace_simple.dir/build
@@ -2929,9 +2929,9 @@ clean: api/samples/CMakeFiles/instrace_simple.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/memtrace_simple.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/memtrace_simple.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 api/samples/CMakeFiles/memtrace_simple.dir/all: ext/drutil/CMakeFiles/drutil.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/memtrace_simple.dir/build.make api/samples/CMakeFiles/memtrace_simple.dir/depend
@@ -2970,9 +2970,9 @@ clean: api/samples/CMakeFiles/memtrace_simple.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/memval_simple.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/memval_simple.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/memval_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/memval_simple.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/memval_simple.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+api/samples/CMakeFiles/memval_simple.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/memval_simple.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 api/samples/CMakeFiles/memval_simple.dir/all: ext/drutil/CMakeFiles/drutil.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/memval_simple.dir/build.make api/samples/CMakeFiles/memval_simple.dir/depend
@@ -3010,9 +3010,9 @@ clean: api/samples/CMakeFiles/memval_simple.dir/clean
 
 # All Build rule for target.
 api/samples/CMakeFiles/myclient.dir/all: core/CMakeFiles/dynamorio.dir/all
+api/samples/CMakeFiles/myclient.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 api/samples/CMakeFiles/myclient.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/myclient.dir/all: ext/drwrap/CMakeFiles/drwrap.dir/all
-api/samples/CMakeFiles/myclient.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 api/samples/CMakeFiles/myclient.dir/all: ext/drsyms/CMakeFiles/drsyms.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/myclient.dir/build.make api/samples/CMakeFiles/myclient.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/myclient.dir/build.make api/samples/CMakeFiles/myclient.dir/build
@@ -3050,9 +3050,9 @@ clean: api/samples/CMakeFiles/myclient.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/opcodes.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/opcodes.dir/all: core/CMakeFiles/dynamorio.dir/all
-api/samples/CMakeFiles/opcodes.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/opcodes.dir/all: ext/drx/CMakeFiles/drx.dir/all
 api/samples/CMakeFiles/opcodes.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
+api/samples/CMakeFiles/opcodes.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/opcodes.dir/all: ext/drreg/CMakeFiles/drreg.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/opcodes.dir/build.make api/samples/CMakeFiles/opcodes.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/opcodes.dir/build.make api/samples/CMakeFiles/opcodes.dir/build
@@ -3236,9 +3236,9 @@ clean: api/samples/CMakeFiles/tracedump.dir/clean
 # All Build rule for target.
 api/samples/CMakeFiles/wrap.dir/all: CMakeFiles/api_headers.dir/all
 api/samples/CMakeFiles/wrap.dir/all: core/CMakeFiles/dynamorio.dir/all
+api/samples/CMakeFiles/wrap.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 api/samples/CMakeFiles/wrap.dir/all: ext/drmgr/CMakeFiles/drmgr.dir/all
 api/samples/CMakeFiles/wrap.dir/all: ext/drwrap/CMakeFiles/drwrap.dir/all
-api/samples/CMakeFiles/wrap.dir/all: ext/drcontainers/CMakeFiles/drcontainers.dir/all
 	$(MAKE) -f api/samples/CMakeFiles/wrap.dir/build.make api/samples/CMakeFiles/wrap.dir/depend
 	$(MAKE) -f api/samples/CMakeFiles/wrap.dir/build.make api/samples/CMakeFiles/wrap.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyeongjun/workspace/raspberrypi/build_arm/CMakeFiles  100
